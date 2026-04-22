@@ -1,4 +1,4 @@
-# Keep Card Wallet Setup - Portfolio Piece
+# Keep Card Wallet Setup
 
 ## Overview
 The Keep Card Wallet is a popular digital wallet app that allows users to securely store and manage their cryptocurrency assets. As part of my work as a technical writer, I was tasked with auditing and rewriting the existing "Set up your Keep Wallet" help center article.
