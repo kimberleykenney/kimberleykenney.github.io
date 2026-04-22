@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Piece 2 — Getting-Started Help-Center Article"
+permalink: /piece-2/
+---
+
 # Getting started with Keep cards
 
 Use this article to set up your Keep cards after account approval. It outlines the recommended setup sequence for new admins and links to the detailed instructions for each task.
