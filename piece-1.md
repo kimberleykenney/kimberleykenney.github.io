@@ -14,8 +14,6 @@ permalink: /piece-1/
 
 The original wallet setup article covers the correct task, but the workflow involves multiple systems, verification steps, and app switching. This sample demonstrates both content evaluation and rewriting for usability.
 
-This rewritten sample is based on publicly available information and reasonable product assumptions. Image placement, UI labels, and related links are representational.
-
 *Disclaimer: This is an independent documentation sample created for portfolio purposes, based on publicly available information and reasonable product assumptions. It is not affiliated with or endorsed by Keep. Image placement, UI labels, and related links are representational.*
 
 **Original article reviewed:** [View the original article](https://help.trykeep.com/how-to-add-your-keep-card-to-your-digital-wallet)
