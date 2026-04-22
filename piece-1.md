@@ -16,7 +16,7 @@ The original wallet setup article covers the correct task, but the workflow invo
 
 This rewritten sample is based on publicly available information and reasonable product assumptions. Image placement, UI labels, and related links are representational.
 
-*Disclaimer: This is an independent documentation sample created for portfolio purposes, based on publicly available information and reasonable product assumptions. It is not affiliated with or endorsed by Keep.*
+*Disclaimer: This is an independent documentation sample created for portfolio purposes, based on publicly available information and reasonable product assumptions. It is not affiliated with or endorsed by Keep. Image placement, UI labels, and related links are representational.*
 
 **Original article reviewed:** [View the original article](https://help.trykeep.com/how-to-add-your-keep-card-to-your-digital-wallet)
 
