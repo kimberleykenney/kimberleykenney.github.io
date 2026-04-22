@@ -89,7 +89,7 @@ To improve usability, the article should:
 
 Use this article to add your Keep Corporate Card to Apple Wallet or Google Wallet for contactless payments.
 
-Setup usually takes 3–5 minutes and requires access to your card details and a verification code.
+Setup usually takes a few minutes and requires access to your card details and a verification code.
 
 #### Before you begin
 
@@ -100,55 +100,71 @@ Make sure you have:
 - Apple Wallet or Google Wallet already set up on your device
 - access to the phone number or email address used for verification
 
-**Note:** You may need to switch between Keep and your mobile wallet during setup to view your card details and complete verification.
+**Note:** You may need to switch between Keep and your mobile wallet during setup to view and enter your card details.
 
-#### Add your card
+#### Add your card on iPhone
 
-##### On iPhone (Apple Wallet)
-
-1. Open the Apple Wallet app.
-2. Tap the **+** icon in the top-right corner.
-3. Select **Debit or Credit Card**, then tap **Continue**.
+1. Open Apple Wallet.
+2. Tap the **+** icon.
+3. Tap **Debit or Credit Card**, then tap **Continue**.
 4. Tap **Enter Card Details Manually**.
-5. Open your Keep dashboard in your browser and select your card.
-6. Click **Show details** to view your card number, expiry date, and CVC.
-7. Return to Apple Wallet and enter these details.
-8. Follow the prompts to verify your card using SMS or email.
+5. In a browser, sign in to Keep and open the card you want to add.
+6. Select **Show details** to view the card number, expiration date, and CVC.
+7. Return to Apple Wallet and enter the card details.
+8. Follow the prompts to verify the card by SMS or email.
 9. Enter the verification code when prompted.
 
 Your card is now ready to use for contactless payments.
 
-##### On Android (Google Wallet)
+#### Add your card on Android
 
-1. Open the Google Wallet app.
-2. Tap **Add to Wallet**, then select **Payment card**.
-3. Tap **New credit or debit card**.
-4. Enter your Keep card details. If needed, open your Keep dashboard in your browser to view the card details.
-5. Review and accept the terms.
-6. Choose your verification method, such as SMS or email.
-7. Enter the verification code when prompted.
+1. Open Google Wallet.
+2. Tap **Add to Wallet**.
+3. Tap **Payment card**, then tap **New credit or debit card**.
+4. In a browser, sign in to Keep and open the card you want to add.
+5. Select **Show details** to view the card number, expiration date, and CVC.
+6. Return to Google Wallet and enter the card details.
+7. Review and accept the terms.
+8. Choose a verification method if prompted.
+9. Enter the verification code when prompted.
 
 Your card is now ready to use.
 
 #### Troubleshooting
 
-##### I didn’t receive a verification code
+##### I did not receive a verification code
 
-- Check that your phone number and email are up to date in your Keep account.
+- Confirm that you have access to the phone number or email address used for verification.
 - Wait a few minutes, then request a new code.
-- Check your spam or junk folder.
+- Check your spam or junk folder if the code was sent by email.
 
-##### My card was not accepted
+##### My card details are not being accepted
 
-- Double-check that your card details are entered correctly.
-- Make sure your billing address matches what is in your Keep account.
-- Confirm your device and wallet app are up to date.
+- Re-enter the card number, expiration date, and CVC exactly as shown in Keep.
+- Make sure you are adding the correct card.
+- If the problem continues, contact support.
 
-##### I can’t find my card details
+##### I cannot find my card details
 
-1. Log in to your Keep account.
-2. Select your card and click **Show details**.
+1. Sign in to Keep.
+2. Open the card you want to add.
+3. Select **Show details**.
 
-##### Still having trouble?
+##### Still need help?
 
-Contact Keep Support.
+Contact Keep Support at support@keep.com.
+
+#### Related articles
+
+- Getting started with Keep cards
+- How to view your Keep card details
+- Troubleshooting digital wallet setup
+- Supported wallets and mobile payment options
+
+## What this sample demonstrates
+
+- content audit and issue prioritization
+- task-based rewriting for end-user documentation
+- clearer procedural sequencing across multiple systems
+- improved prerequisites and troubleshooting design
+- stronger help-center information architecture
