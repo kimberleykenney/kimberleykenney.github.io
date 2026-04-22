@@ -2,28 +2,95 @@
 title: Keep Card Wallet Setup
 ---
 
-## Overview
-The Keep Card Wallet is a popular digital wallet app that allows users to securely store and manage their cryptocurrency assets. As part of my work as a technical writer, I was tasked with auditing and rewriting the existing "Set up your Keep Wallet" help center article.
+> **Portfolio Sample**
+>  
+> This document is an independently created sample designed to demonstrate technical writing and content design skills.  
+> It is based on a fictionalized version of Keep’s product and does not reflect actual internal documentation.  
+> The goal of this piece is to showcase my approach to auditing and improving help center content.
 
-### The Challenge
-The original help article was overly lengthy, confusing, and lacked clear, step-by-step instructions. Users were reporting difficulties in setting up their wallets and understanding the various features and functionalities.
+## Context
 
-### My Approach
-1. **Content Audit**: I thoroughly reviewed the existing help article, identifying areas that were unclear, redundant, or missing key information.
-2. **User Flow Optimization**: I mapped out the typical user flow for setting up a Keep Wallet and restructured the content to align with this flow.
-3. **Cross-Platform Documentation**: I ensured the instructions were comprehensive and applicable to both the mobile app and web-based versions of the Keep Wallet.
-4. **Clarity and Simplicity**: I rewrote the content using plain language, avoiding technical jargon, and breaking down complex steps into easy-to-follow instructions.
+This piece demonstrates an audit and rewrite of a help center article for setting up a digital wallet using a Keep Card. The goal was to improve clarity, structure, and usability for users completing a first-time setup.
 
-### The Outcome
-The revised "Set up your Keep Wallet" help center article now provides users with a clear, step-by-step guide to setting up their digital wallets. The content is concise, well-organized, and easy to understand, resulting in a significant decrease in user support tickets related to wallet setup.
+---
 
-### Key Achievements
-- Improved user satisfaction by simplifying the wallet setup process
-- Reduced support overhead by creating comprehensive, cross-platform documentation
-- Demonstrated expertise in content audit, user flow optimization, and technical writing
+## Issues Identified
 
-### Samples
-You can view the before and after versions of the "Set up your Keep Wallet" article in the following links:
+- No clear starting point or prerequisites for users
+- Steps were not presented in a logical, task-based order
+- Mobile and web instructions were mixed together
+- Key actions were buried under long explanatory paragraphs
+- Lack of scannable structure (headings, step grouping)
 
-- [Original Article](https://keep.com/docs/wallet-setup-original)
-- [Rewritten Article](https://keep.com/docs/wallet-setup-revised)
+---
+
+## Before Snapshot
+
+The original article opened with a detailed product explanation before guiding users to take action. Setup steps were embedded within paragraphs, making it difficult for users to quickly identify what to do next.
+
+---
+
+## Rewritten Help Article: Add Your Keep Card to a Digital Wallet
+
+### Overview
+
+You can add your Keep Card to a supported digital wallet to make secure, contactless payments using your mobile device.
+
+---
+
+### Before You Begin
+
+- You have an active Keep account  
+- Your Keep Card has been issued  
+- You have access to your mobile device  
+- Your device supports Apple Wallet or Google Wallet  
+
+---
+
+### Add Your Card to Apple Wallet
+
+1. Open the **Wallet** app on your iPhone  
+2. Tap the **"+"** icon in the top-right corner  
+3. Select **Debit or Credit Card**  
+4. Choose **Add a Different Card**  
+5. Enter your Keep Card details manually or scan your card  
+6. Follow the prompts to verify your card  
+
+---
+
+### Add Your Card to Google Wallet
+
+1. Open the **Google Wallet** app  
+2. Tap **Add to Wallet**  
+3. Select **Payment card**  
+4. Enter your Keep Card details or scan your card  
+5. Follow the verification steps  
+
+---
+
+### Verify Your Card
+
+Depending on your account settings, you may be asked to verify your card using:
+- A one-time code sent to your email or phone  
+- Your Keep dashboard  
+
+---
+
+### Troubleshooting
+
+**Card not accepted**
+- Confirm your card is active in your Keep account  
+- Ensure your device supports digital wallets  
+
+**Verification issues**
+- Check that your contact information is up to date  
+- Try restarting the app or device  
+
+---
+
+## Why This Works
+
+- Task-first structure allows users to act immediately  
+- Clear separation of Apple vs. Google flows reduces confusion  
+- “Before you begin” sets expectations and prevents errors  
+- Short, scannable steps improve usability across devices  
