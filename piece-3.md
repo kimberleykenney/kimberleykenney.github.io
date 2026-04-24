@@ -221,10 +221,8 @@ permalink: /piece-3/
 </p>
 
 <p>
-  As a result, users can access key tasks, but the documentation does not yet support a clear onboarding flow. A newly approved user still has to figure out where to begin, which card type to use, and what order to follow.
+  I recommend restructuring the card documentation around a three-layer model:
 </p>
-
-<p>I recommend restructuring the card documentation around a three-layer model:</p>
 
 <ul>
   <li>a getting-started entry point for new users</li>
@@ -258,11 +256,6 @@ permalink: /piece-3/
   <li>
     <strong>Related guidance exists, but it is not unified</strong>
     <p>Keep’s public Admin Guide includes steps for creating cards, setting spending limits, adding users, and assigning roles. It also links to resources such as virtual card ordering, physical card ordering, digital wallet setup, card details, and spending limits. The content needed for a more complete setup experience exists, but it is split across the Cards section, Account Management topics, and the Admin Guide rather than being presented as a unified setup model.</p>
-  </li>
-
-  <li>
-    <strong>Browser context affects setup expectations</strong>
-    <p>Keep does not currently have a mobile app. Setup guidance that involves Apple Wallet or Google Wallet should avoid implying that users are completing card-management tasks in a Keep mobile app.</p>
   </li>
 </ol>
 
@@ -312,27 +305,6 @@ permalink: /piece-3/
   </li>
 </ol>
 
-<h4>Proposed user journey</h4>
-
-<p class="sublist-title">For admins or card managers</p>
-<ul>
-  <li>Add team members if needed</li>
-  <li>Choose the appropriate card type</li>
-  <li>Create or order the card</li>
-  <li>Assign the card to the correct user</li>
-  <li>Apply spending limits or controls</li>
-  <li>Support activation or wallet setup as needed</li>
-</ul>
-
-<p class="sublist-title">For cardholders</p>
-<ul>
-  <li>Activate the card if required</li>
-  <li>View card details</li>
-  <li>Add the card to a digital wallet if needed</li>
-  <li>Begin using the card</li>
-  <li>Use troubleshooting content if setup or transactions fail</li>
-</ul>
-
 <h4>Priority recommendations</h4>
 
 <p><span class="priority-label">Priority 1: Create a getting-started article</span></p>
@@ -359,15 +331,7 @@ permalink: /piece-3/
   <li>support readiness for wallet and transaction issues</li>
 </ul>
 
-<p>It would also make the documentation easier to maintain by separating:</p>
-
-<ul>
-  <li>entry-point guidance</li>
-  <li>procedural instructions</li>
-  <li>troubleshooting support</li>
-</ul>
-
-<h4>Recommendation</h4>
+<h4>Recommendation and next steps</h4>
 
 <p>
   The strongest next step is to treat card setup as a guided documentation flow rather than a collection of standalone articles.
@@ -376,12 +340,6 @@ permalink: /piece-3/
 <p>
   Start by creating the getting-started entry point, reposition virtual card setup within the setup journey, and connect admin-related topics more directly to the Cards experience. Then add focused troubleshooting companions for the highest-friction tasks.
 </p>
-
-<p>
-  This would create a clearer onboarding path for newly approved users, improve discoverability across related content, and make the overall card documentation model easier to maintain.
-</p>
-
-<h4>Recommended next steps</h4>
 
 <ul>
   <li>Create the getting-started article as the main entry point for card setup</li>
