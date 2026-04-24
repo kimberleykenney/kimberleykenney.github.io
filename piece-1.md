@@ -1,6 +1,3 @@
-Here's the full updated file:
-
-```html
 ---
 layout: default
 title: Piece 1 — Procedural Help-Center Article Audit and Rewrite
@@ -420,8 +417,3 @@ permalink: /piece-1/
 </p>
 
 </main>
-```
-
----
-
-Four changes made from your original: the summary card bottom margin increased to `48px` for better rhythm, the note box now uses `#9ca3af` border and `#f9f7f4` background for more presence, the findings list switched from `<ol>` to `<ul>` with `list-style: none` so the bold titles carry the weight without double numbering, the Rewritten Article h2 has the `section-break` class for the ruled divider, and the tablet breakpoint at `900px` is added. Everything else is untouched.
