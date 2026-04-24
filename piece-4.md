@@ -242,13 +242,13 @@ permalink: /piece-4/
 </p>
 
 <p>
-  The documentation requirement is therefore not just “document the app.” It is to help users understand where to begin, what the app supports, and when to switch to the web experience.
+  The documentation requirement is therefore not just to document the app. It is to help users understand where to begin, what the app supports, and when to switch to the web experience.
 </p>
 
 <h4 class="memo-divider">Documentation model for launch</h4>
 
 <p>
-  The mobile launch should use the same three-layer documentation model recommended for the broader card setup experience.
+  The mobile launch should use the same three-layer documentation model recommended in the card setup memo, not create a parallel app-only structure.
 </p>
 
 <h4>1. Getting-started documentation</h4>
@@ -260,10 +260,10 @@ permalink: /piece-4/
 <p>Required content:</p>
 
 <ul>
-  <li>Getting started with Keep cards</li>
-  <li>Getting started with the Keep mobile app</li>
-  <li>App vs. web: where to complete common Keep tasks</li>
-  <li>Virtual vs. Physical Cards: Which Option to Use</li>
+  <li><strong>Getting started with the Keep mobile app</strong> <em>(New)</em></li>
+  <li><strong>App vs. web: where to complete common Keep tasks</strong> <em>(New)</em></li>
+  <li><strong>Getting started with Keep cards</strong> <em>(Revised)</em></li>
+  <li><strong>Virtual vs. Physical Cards: Which Option to Use</strong> <em>(Revised)</em></li>
 </ul>
 
 <h4>2. Task-based procedural documentation</h4>
@@ -275,15 +275,15 @@ permalink: /piece-4/
 <p>Required content:</p>
 
 <ul>
-  <li>How to sign in to the Keep mobile app</li>
-  <li>How to activate your Keep card in the app</li>
-  <li>How to view your Keep card details in the app</li>
-  <li>How to add your Keep card to Apple Wallet or Google Wallet</li>
-  <li>How to view card transactions in the app</li>
-  <li>How to Create a Virtual Keep Card</li>
-  <li>How to Order a Physical Keep Card</li>
-  <li>How to Add Team Members to Your Keep Account</li>
-  <li>How to Set Spending Limits on Keep Cards</li>
+  <li><strong>How to sign in to the Keep mobile app</strong> <em>(New)</em></li>
+  <li><strong>How to activate your Keep card in the app</strong> <em>(New)</em></li>
+  <li><strong>How to view your Keep card details in the app</strong> <em>(New)</em></li>
+  <li><strong>How to add your Keep card to Apple Wallet or Google Wallet</strong> <em>(Revised)</em></li>
+  <li><strong>How to view card transactions in the app</strong> <em>(New)</em></li>
+  <li><strong>How to Create a Virtual Keep Card</strong> <em>(Revised)</em></li>
+  <li><strong>How to Order a Physical Keep Card</strong> <em>(Revised)</em></li>
+  <li><strong>How to Add Team Members to Your Keep Account</strong> <em>(Revised)</em></li>
+  <li><strong>How to Set Spending Limits on Keep Cards</strong> <em>(Revised)</em></li>
 </ul>
 
 <h4>3. Support and troubleshooting documentation</h4>
@@ -295,55 +295,13 @@ permalink: /piece-4/
 <p>Required content:</p>
 
 <ul>
-  <li>Troubleshooting Keep mobile app login issues</li>
-  <li>Troubleshooting card verification in the app</li>
-  <li>Troubleshooting digital wallet setup in the app</li>
-  <li>What to do if a feature is not available in the Keep mobile app</li>
-  <li>Why a Keep Card Transaction Was Declined</li>
-  <li>How to Replace a Lost or Stolen Keep Card</li>
+  <li><strong>Troubleshooting Keep mobile app login issues</strong> <em>(New)</em></li>
+  <li><strong>Troubleshooting digital wallet setup in the app</strong> <em>(New)</em></li>
+  <li><strong>What to do if a feature is not available in the Keep mobile app</strong> <em>(New)</em></li>
+  <li><strong>Troubleshooting Card Verification Issues</strong> <em>(Revised)</em></li>
+  <li><strong>Why a Keep Card Transaction Was Declined</strong> <em>(Revised)</em></li>
+  <li><strong>How to Replace a Lost or Stolen Keep Card</strong> <em>(Revised)</em></li>
 </ul>
-
-<h4 class="memo-divider">Launch-critical content changes</h4>
-
-<p>
-  The app launch does not require a separate documentation system. It does require targeted additions and revisions to the existing card documentation.
-</p>
-
-<p><strong>New content required for launch</strong></p>
-
-<ul>
-  <li>Getting started with the Keep mobile app</li>
-  <li>How to sign in to the Keep mobile app</li>
-  <li>App vs. web: where to complete common Keep tasks</li>
-  <li>Troubleshooting Keep mobile app login issues</li>
-  <li>What to do if a feature is not available in the Keep mobile app</li>
-</ul>
-
-<p><strong>Existing content that should be revised for launch</strong></p>
-
-<ul>
-  <li>How to Activate Your Keep Card</li>
-  <li>How to Add Your Keep Card to a Digital Wallet</li>
-  <li>How to View Your Keep Card Details</li>
-  <li>Troubleshooting Card Verification Issues</li>
-</ul>
-
-<p>
-  These articles should be updated to clarify whether the workflow is supported in mobile, on the web, or both.
-</p>
-
-<p><strong>Existing content that should be more directly connected at launch</strong></p>
-
-<ul>
-  <li>How to Create a Virtual Keep Card</li>
-  <li>How to Order a Physical Keep Card</li>
-  <li>How to Add Team Members to Your Keep Account</li>
-  <li>How to Set Spending Limits on Keep Cards</li>
-</ul>
-
-<p>
-  These articles remain important because the mobile launch does not replace the broader card setup journey. They should be linked more directly from entry-point and app-related content so users can move between app and web tasks without confusion.
-</p>
 
 <h4 class="memo-divider">Launch-critical gaps</h4>
 
@@ -392,8 +350,20 @@ permalink: /piece-4/
 <h4 class="memo-divider">Recommendation and next steps</h4>
 
 <p>
-  The mobile launch should use the improved card documentation model recommended in the card setup memo, not create a parallel app-only structure. The documentation team should first finalize the getting-started entry points, app-versus-web guidance, sign-in documentation, and the highest-friction mobile support content. It should then revise the most relevant existing card articles to reflect mobile support, improve cross-linking between app and web tasks, and ensure that mobile onboarding fits into the broader card setup journey rather than competing with it.
+  The mobile launch should use the improved card documentation model recommended in the card setup memo, not create a parallel app-only structure.
 </p>
+
+<p>
+  To prepare the documentation set for launch, the documentation team should:
+</p>
+
+<ul>
+  <li>finalize the getting-started entry points and app-versus-web guidance</li>
+  <li>publish sign-in and other high-friction mobile support content first</li>
+  <li>revise the most relevant existing card articles to reflect mobile support</li>
+  <li>improve connections between app and web tasks across the broader card setup journey</li>
+  <li>confirm that launch documentation reflects the final v1 feature set and support expectations</li>
+</ul>
 
 </section>
 </div>
