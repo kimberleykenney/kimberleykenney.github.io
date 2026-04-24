@@ -78,7 +78,6 @@ permalink: /piece-1/
 
   .summary-card,
   .content-card,
-  .finding,
   .article-page {
     background: #ffffff;
     border: 1px solid #e5e7eb;
@@ -114,27 +113,16 @@ permalink: /piece-1/
     margin-top: 24px;
   }
 
-  .finding-grid {
-    display: grid;
-    gap: 16px;
+  .findings-list {
     margin-top: 20px;
   }
 
-  .finding {
-    border-radius: 16px;
-    padding: 20px 22px;
+  .findings-list li {
+    margin-bottom: 24px;
   }
 
-  .finding p {
-    margin: 0 0 10px;
-  }
-
-  .finding p:last-child {
-    margin-bottom: 0;
-  }
-
-  .finding strong {
-    color: #111827;
+  .findings-list p {
+    margin: 6px 0;
   }
 
   .article-wrap {
@@ -246,72 +234,45 @@ permalink: /piece-1/
   <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View the original article</a>
 </p>
 
-<h3>Overview</h3>
-
-<p>
-  The existing article helps users add a Keep Corporate Card to Apple Wallet or Google Wallet for contactless payments. The task is straightforward, but the experience includes several friction points: users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
-</p>
-
-<p>
-  The article includes the core task information, but it is structured more like reference content than a task-focused guide. For first-time users, that increases effort and makes the setup flow harder to follow.
-</p>
-
 <h3>Key Findings</h3>
 
-<div class="finding-grid">
-
-  <div class="finding">
-    <p><strong>1. App switching is not clearly guided</strong></p>
+<ol class="findings-list">
+  <li>
+    <strong>App switching is not clearly guided</strong>
     <p><strong>Why it matters:</strong> Users may lose their place when moving between Keep and their mobile wallet to retrieve and enter card details.</p>
     <p><strong>Recommended fix:</strong> Add explicit transitions that tell users when to open Keep, when to return to the wallet app, and what to do next.</p>
-  </div>
+  </li>
 
-  <div class="finding">
-    <p><strong>2. Prerequisites are incomplete</strong></p>
+  <li>
+    <strong>Prerequisites are incomplete</strong>
     <p><strong>Why it matters:</strong> Users may begin setup without access to verification methods or card details, which interrupts task completion.</p>
     <p><strong>Recommended fix:</strong> Add realistic prerequisites such as Keep account access and access to the phone number or email used for verification.</p>
-  </div>
+  </li>
 
-  <div class="finding">
-    <p><strong>3. Steps combine multiple actions or assume context</strong></p>
+  <li>
+    <strong>Steps combine multiple actions or assume context</strong>
     <p><strong>Why it matters:</strong> Users must interpret what screen they are on or what action comes next.</p>
     <p><strong>Recommended fix:</strong> Break instructions into smaller steps and use clearer screen and action cues.</p>
-  </div>
+  </li>
 
-  <div class="finding">
-    <p><strong>4. Platform-specific flows are separated but not strongly signposted</strong></p>
+  <li>
+    <strong>Platform-specific flows are separated but not strongly signposted</strong>
     <p><strong>Why it matters:</strong> Users scanning the page may take longer to find the correct instructions for their device.</p>
     <p><strong>Recommended fix:</strong> Add clearer section labels for iPhone and Android flows.</p>
-  </div>
+  </li>
 
-  <div class="finding">
-    <p><strong>5. Screenshots are not fully integrated into the instructions</strong></p>
+  <li>
+    <strong>Screenshots are not fully integrated into the instructions</strong>
     <p><strong>Why it matters:</strong> Visuals are less useful when they are not referenced directly in the steps.</p>
     <p><strong>Recommended fix:</strong> Add captions or callouts that show what the user should look for in each image.</p>
-  </div>
+  </li>
 
-  <div class="finding">
-    <p><strong>6. Troubleshooting is too general</strong></p>
+  <li>
+    <strong>Troubleshooting is too general</strong>
     <p><strong>Why it matters:</strong> Users may need support for common setup issues that the article does not address directly.</p>
     <p><strong>Recommended fix:</strong> Add troubleshooting for verification delays, difficulty locating card details, and repeated data-entry errors.</p>
-  </div>
-
-</div>
-
-<h3>Summary of Impact</h3>
-
-<p>
-  In its current form, the article creates unnecessary effort during a relatively simple setup task. The main usability issues are incomplete preparation guidance, weak app-switching cues, and instructions that require too much interpretation.
-</p>
-
-<p>Improving the article would likely:</p>
-
-<ul>
-  <li>reduce friction for first-time setup</li>
-  <li>increase successful wallet setup completion</li>
-  <li>make screenshots more useful as instructional support</li>
-  <li>reduce avoidable support questions</li>
-</ul>
+  </li>
+</ol>
 
 <h3>Recommended Approach</h3>
 
@@ -365,7 +326,7 @@ permalink: /piece-1/
 
 <ol>
   <li>Open Apple Wallet.</li>
-  <li>Tap the + icon.</li>
+  <li>Tap the + icon in the top-right corner.</li>
   <li>Tap Debit or Credit Card, then tap Continue.</li>
   <li>Tap Enter Card Details Manually.</li>
   <li>In a browser, sign in to Keep and open the card you want to add.</li>
