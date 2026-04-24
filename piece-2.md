@@ -120,15 +120,6 @@ permalink: /piece-2/
     padding: 42px 46px;
   }
 
-  .article-kicker {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #6b7280;
-    font-size: 0.78rem;
-    font-weight: 700;
-    margin-bottom: 14px;
-  }
-
   .article-page h3 {
     font-size: 2rem;
     line-height: 1.18;
@@ -221,8 +212,6 @@ permalink: /piece-2/
 
 <div class="article-wrap">
 <section class="article-page">
-
-<div class="article-kicker">Original help-center article</div>
 
 <h3>Getting started with Keep cards</h3>
 
