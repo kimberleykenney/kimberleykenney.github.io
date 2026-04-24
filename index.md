@@ -93,10 +93,14 @@ title: Kimberley Kenney | Technical Writing Portfolio
   }
 
   .footer-note {
-    margin-top: 44px;
-    font-size: 0.95rem;
-    color: #6b7280;
-  }
+  margin-top: 56px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-style: italic;
+  max-width: 680px;
+}
 
   @media (max-width: 640px) {
     .portfolio-home {
