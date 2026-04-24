@@ -99,6 +99,15 @@ permalink: /piece-1/
     margin-bottom: 0;
   }
 
+  .card-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
   .content-card {
     border-radius: 18px;
     padding: 30px;
@@ -206,10 +215,11 @@ permalink: /piece-1/
 <h1>Piece 1 — Procedural Help-Center Article Audit and Rewrite</h1>
 
 <p class="lede">
-  This portfolio sample evaluates an existing help-center article and rewrites it into a clearer, more task-focused support article.
+  This sample evaluates an existing help-center article and demonstrates how it can be improved for clarity, usability, and task completion.
 </p>
 
 <section class="summary-card">
+  <div class="card-title">Project Overview</div>
   <p><strong>Document type:</strong> Help-center procedural article audit and rewrite</p>
   <p><strong>Scenario:</strong> Fintech card setup with a multi-app workflow</p>
   <p><strong>Challenge:</strong> Transform reference-style content into task-based user guidance</p>
@@ -217,9 +227,11 @@ permalink: /piece-1/
   <p><strong>Primary audience:</strong> Keep cardholders adding a Keep card to Apple Wallet or Google Wallet for the first time</p>
 </section>
 
+<h2>Documentation Audit</h2>
+
 <section class="content-card">
 
-<h2>Project Context</h2>
+<h3>Project Context</h3>
 
 <p>
   The original wallet setup article covers the correct task, but the workflow involves multiple systems, verification steps, and app switching. Users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
@@ -233,16 +245,6 @@ permalink: /piece-1/
   <strong>Original article reviewed:</strong>
   <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View the original article</a>
 </p>
-
-</section>
-
-<h2>Documentation Audit</h2>
-
-<section class="content-card">
-
-<p><strong>Feature:</strong> Add Keep Card to Digital Wallet</p>
-<p><strong>Product:</strong> Keep Corporate Card</p>
-<p><strong>Document type:</strong> Help-center procedural article</p>
 
 <h3>Overview</h3>
 
