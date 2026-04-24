@@ -66,8 +66,17 @@ permalink: /piece-2/
   }
 
   li {
-    margin-bottom: 8px;
-  }
+  margin-bottom: 8px;
+}
+
+.article-page ol > li {
+  margin-bottom: 14px;
+}
+
+.article-page ol > li p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
 
   .article-page ol > li {
   margin-bottom: 18px;
