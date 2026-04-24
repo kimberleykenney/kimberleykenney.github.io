@@ -56,6 +56,13 @@ permalink: /piece-1/
     color: #111827;
   }
 
+  h5 {
+    font-size: 1rem;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: #111827;
+  }
+
   p, li {
     font-size: 1rem;
     color: #374151;
@@ -113,6 +120,10 @@ permalink: /piece-1/
     margin-top: 24px;
   }
 
+  .content-card h3:first-child {
+    margin-top: 0;
+  }
+
   .findings-list {
     margin-top: 20px;
     list-style: none;
@@ -125,6 +136,16 @@ permalink: /piece-1/
 
   .findings-list p {
     margin: 6px 0;
+  }
+
+  .severity-label {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6b7280;
   }
 
   .article-wrap {
@@ -168,8 +189,22 @@ permalink: /piece-1/
     margin: 0;
   }
 
+  .screenshot-caption {
+    margin-top: 8px;
+  }
+
+  .screenshot-caption em {
+    color: #6b7280;
+  }
+
   .related {
     margin-top: 40px;
+  }
+
+  .related-links a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
   .footer-note {
@@ -256,36 +291,42 @@ permalink: /piece-1/
 
 <ul class="findings-list">
   <li>
+    <span class="severity-label">Critical</span><br>
     <strong>App switching is not clearly guided</strong>
     <p><strong>Why it matters:</strong> Users may lose their place when moving between Keep and their mobile wallet to retrieve and enter card details.</p>
     <p><strong>Recommended fix:</strong> Add explicit transitions that tell users when to open Keep, when to return to the wallet app, and what to do next.</p>
   </li>
 
   <li>
+    <span class="severity-label">Critical</span><br>
     <strong>Prerequisites are incomplete</strong>
     <p><strong>Why it matters:</strong> Users may begin setup without access to verification methods or card details, which interrupts task completion.</p>
     <p><strong>Recommended fix:</strong> Add realistic prerequisites such as Keep account access and access to the phone number or email used for verification.</p>
   </li>
 
   <li>
+    <span class="severity-label">Critical</span><br>
     <strong>Steps combine multiple actions or assume context</strong>
     <p><strong>Why it matters:</strong> Users must interpret what screen they are on or what action comes next.</p>
     <p><strong>Recommended fix:</strong> Break instructions into smaller steps and use clearer screen and action cues.</p>
   </li>
 
   <li>
+    <span class="severity-label">Moderate</span><br>
     <strong>Platform-specific flows are separated but not strongly signposted</strong>
     <p><strong>Why it matters:</strong> Users scanning the page may take longer to find the correct instructions for their device.</p>
     <p><strong>Recommended fix:</strong> Add clearer section labels for iPhone and Android flows.</p>
   </li>
 
   <li>
+    <span class="severity-label">Moderate</span><br>
     <strong>Screenshots are not fully integrated into the instructions</strong>
     <p><strong>Why it matters:</strong> Visuals are less useful when they are not referenced directly in the steps.</p>
     <p><strong>Recommended fix:</strong> Add captions or callouts that show what the user should look for in each image. Screenshot placement is indicated in the rewritten article below.</p>
   </li>
 
   <li>
+    <span class="severity-label">Moderate</span><br>
     <strong>Troubleshooting is too general</strong>
     <p><strong>Why it matters:</strong> Users may need support for common setup issues that the article does not address directly.</p>
     <p><strong>Recommended fix:</strong> Add troubleshooting for verification delays, difficulty locating card details, and repeated data-entry errors.</p>
@@ -348,8 +389,7 @@ permalink: /piece-1/
   <li>Tap Debit or Credit Card, then tap Continue.</li>
   <li>Tap Enter Card Details Manually.</li>
   <li>In a browser, sign in to Keep and open the card you want to add.</li>
-  <li>Select Show details to view the card number, expiration date, and CVC.
-    <br><em>[Screenshot: Keep dashboard with Show details highlighted]</em></li>
+  <li>Select Show details to view the card number, expiration date, and CVC.<div class="screenshot-caption"><em>[Screenshot: Keep dashboard with Show details highlighted]</em></div></li>
   <li>Return to Apple Wallet and enter the card details.</li>
   <li>Follow the prompts to verify the card by SMS or email.</li>
   <li>Enter the verification code when prompted.</li>
@@ -364,8 +404,7 @@ permalink: /piece-1/
   <li>Tap Add to Wallet.</li>
   <li>Tap Payment card, then tap New credit or debit card.</li>
   <li>In a browser, sign in to Keep and open the card you want to add.</li>
-  <li>Select Show details to view the card number, expiration date, and CVC.
-    <br><em>[Screenshot: Keep dashboard with Show details highlighted]</em></li>
+  <li>Select Show details to view the card number, expiration date, and CVC.<div class="screenshot-caption"><em>[Screenshot: Keep dashboard with Show details highlighted]</em></div></li>
   <li>Return to Google Wallet and enter the card details.</li>
   <li>Review and accept the terms.</li>
   <li>Choose a verification method if prompted.</li>
@@ -376,21 +415,21 @@ permalink: /piece-1/
 
 <h4>Troubleshooting</h4>
 
-<p><strong>I did not receive a verification code</strong></p>
+<h5>I did not receive a verification code</h5>
 <ul>
   <li>Confirm that you have access to the phone number or email address used for verification.</li>
   <li>Wait a few minutes, then request a new code.</li>
   <li>Check your spam or junk folder if the code was sent by email.</li>
 </ul>
 
-<p><strong>My card details are not being accepted</strong></p>
+<h5>My card details are not being accepted</h5>
 <ul>
   <li>Re-enter the card number, expiration date, and CVC exactly as shown in Keep.</li>
   <li>Make sure you are adding the correct card.</li>
   <li>If the problem continues, contact support.</li>
 </ul>
 
-<p><strong>I cannot find my card details</strong></p>
+<h5>I cannot find my card details</h5>
 <ol>
   <li>Sign in to Keep.</li>
   <li>Open the card you want to add.</li>
@@ -402,11 +441,11 @@ permalink: /piece-1/
 
 <h4 class="related">Related articles</h4>
 
-<ul>
-  <li>Getting started with Keep cards</li>
-  <li>How to view your Keep card details</li>
-  <li>Troubleshooting digital wallet setup</li>
-  <li>Supported wallets and mobile payment options</li>
+<ul class="related-links">
+  <li><a href="#">Getting started with Keep cards</a></li>
+  <li><a href="#">How to view your Keep card details</a></li>
+  <li><a href="#">Troubleshooting digital wallet setup</a></li>
+  <li><a href="#">Supported wallets and mobile payment options</a></li>
 </ul>
 
 </section>
