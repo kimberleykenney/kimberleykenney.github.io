@@ -13,14 +13,14 @@ permalink: /piece-1/
   }
 
   .page {
-    max-width: 940px;
+    max-width: 920px;
     margin: 0 auto;
     padding: 64px 24px 96px;
   }
 
   .back-link {
     display: inline-block;
-    margin-bottom: 36px;
+    margin-bottom: 32px;
     color: #6b7280;
     text-decoration: none;
     font-size: 0.95rem;
@@ -31,169 +31,103 @@ permalink: /piece-1/
   }
 
   h1 {
-    font-size: 2.65rem;
-    line-height: 1.12;
-    margin: 0 0 18px;
+    font-size: 2.6rem;
+    margin-bottom: 16px;
     color: #111827;
   }
 
   h2 {
-    font-size: 1.55rem;
-    margin: 56px 0 18px;
+    font-size: 1.5rem;
+    margin-top: 48px;
+    margin-bottom: 14px;
     color: #111827;
   }
 
   h3 {
-    font-size: 1.18rem;
-    margin-top: 34px;
-    color: #111827;
-  }
-
-  h4 {
-    font-size: 1rem;
+    font-size: 1.15rem;
     margin-top: 28px;
     color: #111827;
   }
 
   p, li {
-    font-size: 1rem;
     color: #374151;
   }
 
-  ul, ol {
-    padding-left: 1.35rem;
-  }
-
-  li {
-    margin-bottom: 8px;
-  }
-
   .lede {
-    font-size: 1.12rem;
+    font-size: 1.1rem;
     color: #4b5563;
-    max-width: 780px;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
+    max-width: 720px;
   }
 
-  .section-card,
-  .article-page {
+  .card {
     background: #ffffff;
     border: 1px solid #e5e7eb;
-    box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
     border-radius: 18px;
+    padding: 24px 26px;
+    box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
   }
 
-  .section-card {
-    padding: 30px;
-    margin-top: 18px;
+  .card p {
+    margin-bottom: 10px;
   }
 
-  .section-card h2 {
-    margin-top: 0;
-    padding-bottom: 14px;
-    border-bottom: 1px solid #e5e7eb;
-  }
-
-  .overview-list p {
-    margin: 0 0 10px;
-  }
-
-  .overview-list p:last-child {
+  .card p:last-child {
     margin-bottom: 0;
   }
 
   .finding-list {
     list-style: none;
-    padding-left: 0;
-    margin-top: 18px;
+    padding: 0;
+    margin-top: 16px;
   }
 
   .finding-list li {
-    padding: 18px 0;
+    padding: 14px 0;
     border-top: 1px solid #e5e7eb;
-    margin-bottom: 0;
   }
 
   .finding-list li:first-child {
-    border-top: 0;
+    border-top: none;
     padding-top: 0;
-  }
-
-  .finding-list strong {
-    color: #111827;
   }
 
   .article-wrap {
     background: #f3f1ed;
-    border-radius: 24px;
-    padding: 28px;
-    margin-top: 24px;
+    border-radius: 22px;
+    padding: 24px;
   }
 
   .article-page {
-    max-width: 760px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 36px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 42px 46px;
   }
 
   .article-kicker {
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #6b7280;
-    font-size: 0.78rem;
-    font-weight: 700;
-    margin-bottom: 14px;
-  }
-
-  .article-page h3 {
-    font-size: 2rem;
-    line-height: 1.18;
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 
   .note-box {
     background: #f9fafb;
     border-left: 4px solid #d1d5db;
-    padding: 16px 18px;
-    margin: 22px 0;
-  }
-
-  .note-box p {
-    margin: 0;
-  }
-
-  .related {
-    margin-top: 40px;
+    padding: 14px 16px;
+    margin: 20px 0;
   }
 
   .footer-note {
     margin-top: 56px;
-    padding-top: 18px;
+    padding-top: 16px;
     border-top: 1px solid #e5e7eb;
     font-size: 0.9rem;
     color: #6b7280;
     font-style: italic;
-    max-width: 760px;
-  }
-
-  @media (max-width: 640px) {
-    .page {
-      padding: 44px 20px 72px;
-    }
-
-    h1 {
-      font-size: 2.1rem;
-    }
-
-    .section-card,
-    .article-page {
-      padding: 24px;
-    }
-
-    .article-wrap {
-      padding: 16px;
-    }
   }
 </style>
 
@@ -208,77 +142,45 @@ permalink: /piece-1/
 </p>
 
 <h2>Project Overview</h2>
-
-<section class="section-card overview-list">
+<section class="card">
   <p><strong>Document type:</strong> Help-center procedural article audit and rewrite</p>
   <p><strong>Scenario:</strong> Fintech card setup with a multi-app workflow</p>
   <p><strong>Challenge:</strong> Transform reference-style content into task-based user guidance</p>
   <p><strong>Skills demonstrated:</strong> Content audit, user flow optimization, cross-platform documentation</p>
-  <p><strong>Primary audience:</strong> Keep cardholders adding a Keep card to Apple Wallet or Google Wallet for the first time</p>
+  <p><strong>Primary audience:</strong> First-time cardholders adding a card to a digital wallet</p>
 </section>
 
-<section class="section-card">
-
 <h2>Documentation Audit</h2>
+<section class="card">
 
 <h3>Project Context</h3>
-
 <p>
-  The original wallet setup article covers the correct task, but the workflow involves multiple systems, verification steps, and app switching. Users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
+  The setup requires switching between apps, retrieving card details, and completing verification. These steps introduce friction for first-time users.
 </p>
 
 <p>
-  <strong>Original article reviewed:</strong>
-  <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View the original article</a>
-</p>
-
-<h3>Overview</h3>
-
-<p>
-  The article includes the core task information, but it is structured more like reference content than a task-focused guide. For first-time users, that increases effort and makes the setup flow harder to follow.
+  <strong>Original article:</strong>
+  <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View source</a>
 </p>
 
 <h3>Key Findings</h3>
+<ul class="finding-list">
+  <li><strong>App switching is unclear.</strong> Users aren’t guided between Keep and wallet apps.</li>
+  <li><strong>Missing prerequisites.</strong> Users may start without required information.</li>
+  <li><strong>Steps lack clarity.</strong> Instructions combine actions or assume context.</li>
+  <li><strong>Platform flows unclear.</strong> iPhone vs Android isn’t instantly obvious.</li>
+  <li><strong>Visuals underused.</strong> Screenshots aren’t integrated into steps.</li>
+  <li><strong>Weak troubleshooting.</strong> Common issues aren’t addressed directly.</li>
+</ul>
 
-<ol class="finding-list">
-  <li>
-    <strong>App switching is not clearly guided.</strong><br>
-    Users may lose their place when moving between Keep and their mobile wallet. The article should include clearer transitions that tell users when to open Keep, when to return to the wallet app, and what to do next.
-  </li>
-  <li>
-    <strong>Prerequisites are incomplete.</strong><br>
-    Users may begin setup without access to verification methods or card details. The article should state what users need before they start, including Keep account access and access to the phone number or email used for verification.
-  </li>
-  <li>
-    <strong>Steps combine multiple actions or assume context.</strong><br>
-    Users must interpret what screen they are on or what action comes next. The article should use shorter steps with clearer screen and action cues.
-  </li>
-  <li>
-    <strong>Platform-specific flows need stronger signposting.</strong><br>
-    Users scanning the page should be able to quickly find the correct instructions for iPhone or Android.
-  </li>
-  <li>
-    <strong>Screenshots could be better integrated.</strong><br>
-    Visuals are most useful when they are referenced directly in the steps or supported with captions.
-  </li>
-  <li>
-    <strong>Troubleshooting is too general.</strong><br>
-    Users may need support for common blockers such as verification delays, difficulty locating card details, or repeated data-entry errors.
-  </li>
-</ol>
-
-<h3>Summary of Impact</h3>
-
+<h3>Impact</h3>
 <p>
-  In its current form, the article creates unnecessary effort during a relatively simple setup task. The main usability issues are incomplete preparation guidance, weak app-switching cues, and instructions that require too much interpretation.
+  These issues increase friction and make a simple setup feel more complex than necessary.
 </p>
 
-<p>Improving the article would likely reduce friction for first-time setup, increase successful wallet setup completion, make screenshots more useful, and reduce avoidable support questions.</p>
-
 <h3>Recommended Approach</h3>
-
 <p>
-  To improve usability, the article should open with a task-focused introduction, include practical prerequisites, separate iPhone and Android flows clearly, use shorter steps, guide users through app switching, and include troubleshooting for common setup blockers.
+  Use a task-based structure, clearer steps, better platform separation, and targeted troubleshooting.
 </p>
 
 </section>
@@ -290,107 +192,45 @@ permalink: /piece-1/
 
 <div class="article-kicker">Sample help-center article</div>
 
-<h3>Add your Keep card to Apple Wallet or Google Wallet</h3>
+<h3>Add your card to Apple Wallet or Google Wallet</h3>
 
 <p>
-  Use this article to add your Keep Corporate Card to Apple Wallet or Google Wallet for contactless payments.
-</p>
-
-<p>
-  Setup usually takes a few minutes and requires access to your card details and a verification code.
+  Add your card for contactless payments. Setup takes a few minutes.
 </p>
 
 <h4>Before you begin</h4>
-
-<p>Make sure you have:</p>
-
 <ul>
-  <li>access to your Keep account</li>
-  <li>access to the Keep card you want to add</li>
-  <li>Apple Wallet or Google Wallet already set up on your device</li>
-  <li>access to the phone number or email address used for verification</li>
+  <li>Access to your account</li>
+  <li>Your card details</li>
+  <li>Wallet app installed</li>
+  <li>Access to verification method</li>
 </ul>
 
 <div class="note-box">
-  <p><strong>Note:</strong> You may need to switch between Keep and your mobile wallet during setup to view and enter your card details.</p>
+  You may need to switch between apps during setup.
 </div>
 
-<h4>Add your card on iPhone</h4>
-
+<h4>iPhone</h4>
 <ol>
-  <li>Open Apple Wallet.</li>
-  <li>Tap the + icon.</li>
-  <li>Tap Debit or Credit Card, then tap Continue.</li>
-  <li>Tap Enter Card Details Manually.</li>
-  <li>In a browser, sign in to Keep and open the card you want to add.</li>
-  <li>Select Show details to view the card number, expiration date, and CVC.</li>
-  <li>Return to Apple Wallet and enter the card details.</li>
-  <li>Follow the prompts to verify the card by SMS or email.</li>
-  <li>Enter the verification code when prompted.</li>
+  <li>Open Apple Wallet</li>
+  <li>Tap +</li>
+  <li>Enter card details from Keep</li>
+  <li>Verify via code</li>
 </ol>
 
-<p>Your card is now ready to use for contactless payments.</p>
-
-<h4>Add your card on Android</h4>
-
+<h4>Android</h4>
 <ol>
-  <li>Open Google Wallet.</li>
-  <li>Tap Add to Wallet.</li>
-  <li>Tap Payment card, then tap New credit or debit card.</li>
-  <li>In a browser, sign in to Keep and open the card you want to add.</li>
-  <li>Select Show details to view the card number, expiration date, and CVC.</li>
-  <li>Return to Google Wallet and enter the card details.</li>
-  <li>Review and accept the terms.</li>
-  <li>Choose a verification method if prompted.</li>
-  <li>Enter the verification code when prompted.</li>
+  <li>Open Google Wallet</li>
+  <li>Add card</li>
+  <li>Enter details</li>
+  <li>Verify</li>
 </ol>
-
-<p>Your card is now ready to use.</p>
-
-<h4>Troubleshooting</h4>
-
-<p><strong>I did not receive a verification code</strong></p>
-
-<ul>
-  <li>Confirm that you have access to the phone number or email address used for verification.</li>
-  <li>Wait a few minutes, then request a new code.</li>
-  <li>Check your spam or junk folder if the code was sent by email.</li>
-</ul>
-
-<p><strong>My card details are not being accepted</strong></p>
-
-<ul>
-  <li>Re-enter the card number, expiration date, and CVC exactly as shown in Keep.</li>
-  <li>Make sure you are adding the correct card.</li>
-  <li>If the problem continues, contact support.</li>
-</ul>
-
-<p><strong>I cannot find my card details</strong></p>
-
-<ol>
-  <li>Sign in to Keep.</li>
-  <li>Open the card you want to add.</li>
-  <li>Select Show details.</li>
-</ol>
-
-<p><strong>Still need help?</strong></p>
-
-<p>Contact Keep Support.</p>
-
-<h4 class="related">Related articles</h4>
-
-<ul>
-  <li>Getting started with Keep cards</li>
-  <li>How to view your Keep card details</li>
-  <li>Troubleshooting digital wallet setup</li>
-  <li>Supported wallets and mobile payment options</li>
-</ul>
 
 </section>
 </div>
 
 <p class="footer-note">
-  This is an independent documentation sample created for portfolio purposes. It is based on publicly available information, reasonable product assumptions, and technical writing best practices. It is not affiliated with or endorsed by Keep. Image placement, UI labels, and related links are representational.
+  This sample is independently created for demonstration purposes and is based on publicly available information and reasonable assumptions.
 </p>
 
 </main>
