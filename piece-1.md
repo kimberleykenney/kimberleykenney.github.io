@@ -26,10 +26,6 @@ permalink: /piece-1/
     font-size: 0.95rem;
   }
 
-  .back-link:hover {
-    text-decoration: underline;
-  }
-
   h1 {
     font-size: 2.6rem;
     margin-bottom: 16px;
@@ -64,7 +60,7 @@ permalink: /piece-1/
     background: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 18px;
-    padding: 24px 26px;
+    padding: 26px;
     box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
   }
 
@@ -77,19 +73,15 @@ permalink: /piece-1/
   }
 
   .finding-list {
-    list-style: none;
-    padding: 0;
     margin-top: 16px;
   }
 
   .finding-list li {
-    padding: 14px 0;
-    border-top: 1px solid #e5e7eb;
+    margin-bottom: 16px;
   }
 
-  .finding-list li:first-child {
-    border-top: none;
-    padding-top: 0;
+  .finding-list strong {
+    color: #111827;
   }
 
   .article-wrap {
@@ -147,7 +139,7 @@ permalink: /piece-1/
   <p><strong>Scenario:</strong> Fintech card setup with a multi-app workflow</p>
   <p><strong>Challenge:</strong> Transform reference-style content into task-based user guidance</p>
   <p><strong>Skills demonstrated:</strong> Content audit, user flow optimization, cross-platform documentation</p>
-  <p><strong>Primary audience:</strong> First-time cardholders adding a card to a digital wallet</p>
+  <p><strong>Primary audience:</strong> Keep cardholders adding a card to a digital wallet for the first time</p>
 </section>
 
 <h2>Documentation Audit</h2>
@@ -155,32 +147,53 @@ permalink: /piece-1/
 
 <h3>Project Context</h3>
 <p>
-  The setup requires switching between apps, retrieving card details, and completing verification. These steps introduce friction for first-time users.
+  The original wallet setup article covers the correct task, but the workflow involves multiple systems, verification steps, and app switching. Users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
 </p>
 
 <p>
-  <strong>Original article:</strong>
-  <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View source</a>
+  <strong>Original article reviewed:</strong>
+  <a href="https://help.trykeep.com/en/articles/10132858-how-to-add-your-keep-card-to-your-digital-wallet" target="_blank">View the original article</a>
+</p>
+
+<h3>Overview</h3>
+<p>
+  The article includes the core task information, but it is structured more like reference content than a task-focused guide. For first-time users, that increases effort and makes the setup flow harder to follow.
 </p>
 
 <h3>Key Findings</h3>
 <ul class="finding-list">
-  <li><strong>App switching is unclear.</strong> Users aren’t guided between Keep and wallet apps.</li>
-  <li><strong>Missing prerequisites.</strong> Users may start without required information.</li>
-  <li><strong>Steps lack clarity.</strong> Instructions combine actions or assume context.</li>
-  <li><strong>Platform flows unclear.</strong> iPhone vs Android isn’t instantly obvious.</li>
-  <li><strong>Visuals underused.</strong> Screenshots aren’t integrated into steps.</li>
-  <li><strong>Weak troubleshooting.</strong> Common issues aren’t addressed directly.</li>
+  <li>
+    <strong>App switching is not clearly guided.</strong> Users may lose their place when moving between Keep and their mobile wallet. The article should include explicit transitions that guide movement between apps.
+  </li>
+  <li>
+    <strong>Prerequisites are incomplete.</strong> Users may begin setup without access to required details or verification methods, interrupting completion.
+  </li>
+  <li>
+    <strong>Steps combine multiple actions or assume context.</strong> Instructions require interpretation instead of guiding users step by step.
+  </li>
+  <li>
+    <strong>Platform-specific flows are not clearly separated.</strong> Users may struggle to quickly identify the correct path for their device.
+  </li>
+  <li>
+    <strong>Screenshots are not fully integrated.</strong> Visuals are less effective without direct reference in the steps.
+  </li>
+  <li>
+    <strong>Troubleshooting is too general.</strong> Common setup blockers are not addressed clearly or specifically.
+  </li>
 </ul>
 
-<h3>Impact</h3>
+<h3>Summary of Impact</h3>
 <p>
-  These issues increase friction and make a simple setup feel more complex than necessary.
+  In its current form, the article creates unnecessary effort during a relatively simple setup task. The main usability issues are incomplete preparation guidance, weak app-switching cues, and instructions that require too much interpretation.
+</p>
+
+<p>
+  Improving the article would reduce friction, increase successful completion, and reduce avoidable support requests.
 </p>
 
 <h3>Recommended Approach</h3>
 <p>
-  Use a task-based structure, clearer steps, better platform separation, and targeted troubleshooting.
+  The article should adopt a task-based structure, include clear prerequisites, separate platform-specific flows, guide app switching explicitly, and include targeted troubleshooting.
 </p>
 
 </section>
@@ -192,45 +205,49 @@ permalink: /piece-1/
 
 <div class="article-kicker">Sample help-center article</div>
 
-<h3>Add your card to Apple Wallet or Google Wallet</h3>
+<h3>Add your Keep card to Apple Wallet or Google Wallet</h3>
 
 <p>
-  Add your card for contactless payments. Setup takes a few minutes.
+  Use this article to add your Keep Corporate Card for contactless payments.
+</p>
+
+<p>
+  Setup takes a few minutes and requires access to your card details and a verification code.
 </p>
 
 <h4>Before you begin</h4>
 <ul>
-  <li>Access to your account</li>
-  <li>Your card details</li>
-  <li>Wallet app installed</li>
-  <li>Access to verification method</li>
+  <li>Access to your Keep account</li>
+  <li>Access to the card you want to add</li>
+  <li>Apple Wallet or Google Wallet set up</li>
+  <li>Access to your verification method</li>
 </ul>
 
 <div class="note-box">
-  You may need to switch between apps during setup.
+  You may need to switch between Keep and your mobile wallet during setup.
 </div>
 
-<h4>iPhone</h4>
+<h4>Add your card on iPhone</h4>
 <ol>
   <li>Open Apple Wallet</li>
-  <li>Tap +</li>
+  <li>Tap the + icon</li>
   <li>Enter card details from Keep</li>
-  <li>Verify via code</li>
+  <li>Complete verification</li>
 </ol>
 
-<h4>Android</h4>
+<h4>Add your card on Android</h4>
 <ol>
   <li>Open Google Wallet</li>
-  <li>Add card</li>
-  <li>Enter details</li>
-  <li>Verify</li>
+  <li>Add a new card</li>
+  <li>Enter card details</li>
+  <li>Complete verification</li>
 </ol>
 
 </section>
 </div>
 
 <p class="footer-note">
-  This sample is independently created for demonstration purposes and is based on publicly available information and reasonable assumptions.
+  This is an independent documentation sample created for portfolio purposes. It is based on publicly available information and reasonable product assumptions.
 </p>
 
 </main>
