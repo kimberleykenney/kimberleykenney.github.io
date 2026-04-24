@@ -147,17 +147,6 @@ permalink: /piece-2/
     margin: 0;
   }
 
-  .open-list-title {
-    margin-top: 14px;
-    margin-bottom: 8px;
-    font-weight: 700;
-    color: #111827;
-  }
-
-  .after-setup {
-    margin-top: 28px;
-  }
-
   .related {
     margin-top: 40px;
   }
@@ -228,12 +217,12 @@ permalink: /piece-2/
   <p><strong>Primary audience:</strong> New Keep admins or card managers setting up cards for themselves or their team</p>
 </section>
 
-<h2 class="section-break">Rewritten Article</h2>
+<h2 class="section-break">Help-Center Article</h2>
 
 <div class="article-wrap">
 <section class="article-page">
 
-<div class="article-kicker">Sample help-center article</div>
+<div class="article-kicker">Original help-center article</div>
 
 <h3>Getting started with Keep cards</h3>
 
@@ -265,9 +254,7 @@ permalink: /piece-2/
 <ol>
   <li>
     <strong>Add users who need cards</strong>
-    <p>If you’re issuing cards to other team members, add them to your account before creating cards.</p>
-    <p>This helps ensure each card is assigned to the correct cardholder from the start.</p>
-    <p class="open-list-title">Open:</p>
+    <p>If you’re issuing cards to other team members, add them to your account before creating cards so each card is assigned to the correct cardholder from the start.</p>
     <ul class="related-links">
       <li><a href="#">How to Add Team Members to Your Keep Account</a></li>
       <li><a href="#">User Roles and Permissions in Keep</a></li>
@@ -277,10 +264,7 @@ permalink: /piece-2/
   <li>
     <strong>Choose the right card type</strong>
     <p>Decide whether you need a virtual card, a physical card, or both.</p>
-    <p>Choose a virtual card if you need to start spending online right away.</p>
-    <p>Choose a physical card if you need a card for in-person purchases.</p>
-    <p>Choose both if you want to support online and in-person spending for the same user or workflow.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Choose a virtual card if you need to start spending online right away, a physical card if you need one for in-person purchases, or both if the same user or workflow needs to support online and in-person spending.</p>
     <ul class="related-links">
       <li><a href="#">How to Create a Virtual Keep Card</a></li>
       <li><a href="#">How to Order a Physical Keep Card</a></li>
@@ -290,9 +274,7 @@ permalink: /piece-2/
 
   <li>
     <strong>Assign the card to the right cardholder</strong>
-    <p>When you create a card, assign it to the person who will use it.</p>
-    <p>This helps you track spending accurately, control access, and manage accountability across your team.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Assign each card to the person who will use it so you can track spending accurately, control access, and manage accountability across your team.</p>
     <ul class="related-links">
       <li><a href="#">How to Assign a Keep Card to a User</a></li>
       <li><a href="#">How Card Ownership Works in Keep</a></li>
@@ -301,9 +283,7 @@ permalink: /piece-2/
 
   <li>
     <strong>Activate the card if required</strong>
-    <p>Activate the card before using it for purchases.</p>
-    <p>Depending on the card type, activation may be automatic or may require a separate step before the card can be used.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Activate the card before using it for purchases. Depending on the card type, activation may be automatic or may require a separate step.</p>
     <ul class="related-links">
       <li><a href="#">How to Activate Your Keep Card</a></li>
       <li><a href="#">Card Activation: Virtual vs. Physical Cards</a></li>
@@ -312,9 +292,7 @@ permalink: /piece-2/
 
   <li>
     <strong>Review card details and limits</strong>
-    <p>Before spending begins, review the card details available in Keep.</p>
-    <p>This helps you confirm the card is ready to use, understand the available credit, and check any spending limits or controls that apply.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Before spending begins, review the card details in Keep to confirm the card is ready to use, check available credit, and verify any spending limits or controls.</p>
     <ul class="related-links">
       <li><a href="#">How to View Your Keep Card Details</a></li>
       <li><a href="#">How to Check Available Credit</a></li>
@@ -324,9 +302,7 @@ permalink: /piece-2/
 
   <li>
     <strong>Add the card to a digital wallet</strong>
-    <p>Add the card to Apple Wallet or Google Wallet if the cardholder plans to use it for contactless or mobile payments.</p>
-    <p>This is the fastest way to make the card available for tap-to-pay and mobile purchases.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Add the card to Apple Wallet or Google Wallet if the cardholder plans to use it for contactless or mobile payments. This makes the card available for tap-to-pay and mobile purchases.</p>
     <ul class="related-links">
       <li><a href="#">How to Add Your Keep Card to a Digital Wallet</a></li>
       <li><a href="#">Supported Wallets and Mobile Payment Options</a></li>
@@ -335,8 +311,7 @@ permalink: /piece-2/
 
   <li>
     <strong>Start using and monitoring the card</strong>
-    <p>Once setup is complete, the cardholder can begin making purchases and you can begin monitoring spending in Keep.</p>
-    <p class="open-list-title">Open:</p>
+    <p>Once setup is complete, the cardholder can begin making purchases and you can monitor spending in Keep.</p>
     <ul class="related-links">
       <li><a href="#">How to Track Card Transactions</a></li>
       <li><a href="#">How to Monitor Team Spending</a></li>
@@ -344,16 +319,6 @@ permalink: /piece-2/
     </ul>
   </li>
 </ol>
-
-<div class="after-setup">
-  <h4>After setup, you can</h4>
-  <ul>
-    <li>make purchases online or in person</li>
-    <li>track transactions in your dashboard</li>
-    <li>monitor spending across your team</li>
-    <li>update card access, limits, or controls as needed</li>
-  </ul>
-</div>
 
 <h4 class="related">Related articles</h4>
 
