@@ -50,11 +50,15 @@ permalink: /piece-3/
     color: #111827;
   }
 
-  h4 {
-    font-size: 1rem;
-    margin-top: 28px;
-    color: #111827;
-  }
+h4 {
+  font-size: 0.9rem;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  color: #111827;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
 
   p, li {
     font-size: 1rem;
