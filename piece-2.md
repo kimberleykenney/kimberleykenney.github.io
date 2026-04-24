@@ -69,6 +69,10 @@ permalink: /piece-2/
     margin-bottom: 8px;
   }
 
+  .article-page ol > li {
+  margin-bottom: 18px;
+}
+  
   .lede {
     font-size: 1.12rem;
     color: #4b5563;
