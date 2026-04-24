@@ -39,13 +39,12 @@ permalink: /piece-1/
 
   h2 {
     font-size: 1.55rem;
-    margin-top: 56px;
-    margin-bottom: 18px;
+    margin: 56px 0 18px;
     color: #111827;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.18rem;
     margin-top: 34px;
     color: #111827;
   }
@@ -73,67 +72,54 @@ permalink: /piece-1/
     font-size: 1.12rem;
     color: #4b5563;
     max-width: 780px;
-    margin-bottom: 28px;
+    margin-bottom: 34px;
   }
 
-  .summary-card,
-  .content-card,
-  .finding,
+  .section-card,
   .article-page {
     background: #ffffff;
     border: 1px solid #e5e7eb;
     box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
-  }
-
-  .summary-card {
     border-radius: 18px;
-    padding: 24px 26px;
-    margin: 28px 0 34px;
   }
 
-  .summary-card p {
-    margin: 0 0 10px;
-  }
-
-  .summary-card p:last-child {
-    margin-bottom: 0;
-  }
-
-  .card-title {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.75rem;
-    color: #6b7280;
-    font-weight: 700;
-    margin-bottom: 14px;
-  }
-
-  .content-card {
-    border-radius: 18px;
+  .section-card {
     padding: 30px;
-    margin-top: 24px;
+    margin-top: 18px;
   }
 
-  .finding-grid {
-    display: grid;
-    gap: 16px;
-    margin-top: 20px;
+  .section-card h2 {
+    margin-top: 0;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e5e7eb;
   }
 
-  .finding {
-    border-radius: 16px;
-    padding: 20px 22px;
-  }
-
-  .finding p {
+  .overview-list p {
     margin: 0 0 10px;
   }
 
-  .finding p:last-child {
+  .overview-list p:last-child {
     margin-bottom: 0;
   }
 
-  .finding strong {
+  .finding-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 18px;
+  }
+
+  .finding-list li {
+    padding: 18px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 0;
+  }
+
+  .finding-list li:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .finding-list strong {
     color: #111827;
   }
 
@@ -147,7 +133,6 @@ permalink: /piece-1/
   .article-page {
     max-width: 760px;
     margin: 0 auto;
-    border-radius: 18px;
     padding: 42px 46px;
   }
 
@@ -174,6 +159,10 @@ permalink: /piece-1/
     margin: 22px 0;
   }
 
+  .note-box p {
+    margin: 0;
+  }
+
   .related {
     margin-top: 40px;
   }
@@ -197,7 +186,7 @@ permalink: /piece-1/
       font-size: 2.1rem;
     }
 
-    .content-card,
+    .section-card,
     .article-page {
       padding: 24px;
     }
@@ -218,8 +207,9 @@ permalink: /piece-1/
   This sample evaluates an existing help-center article and demonstrates how it can be improved for clarity, usability, and task completion.
 </p>
 
-<section class="summary-card">
-  <div class="card-title">Project Overview</div>
+<h2>Project Overview</h2>
+
+<section class="section-card overview-list">
   <p><strong>Document type:</strong> Help-center procedural article audit and rewrite</p>
   <p><strong>Scenario:</strong> Fintech card setup with a multi-app workflow</p>
   <p><strong>Challenge:</strong> Transform reference-style content into task-based user guidance</p>
@@ -227,18 +217,14 @@ permalink: /piece-1/
   <p><strong>Primary audience:</strong> Keep cardholders adding a Keep card to Apple Wallet or Google Wallet for the first time</p>
 </section>
 
-<h2>Documentation Audit</h2>
+<section class="section-card">
 
-<section class="content-card">
+<h2>Documentation Audit</h2>
 
 <h3>Project Context</h3>
 
 <p>
   The original wallet setup article covers the correct task, but the workflow involves multiple systems, verification steps, and app switching. Users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
-</p>
-
-<p>
-  This sample demonstrates both content evaluation and rewriting for usability.
 </p>
 
 <p>
@@ -249,54 +235,37 @@ permalink: /piece-1/
 <h3>Overview</h3>
 
 <p>
-  The existing article helps users add a Keep Corporate Card to Apple Wallet or Google Wallet for contactless payments. The task is straightforward, but the experience includes several friction points: users may need to retrieve card details from Keep, switch between Keep and their wallet app, and complete verification by SMS or email.
-</p>
-
-<p>
   The article includes the core task information, but it is structured more like reference content than a task-focused guide. For first-time users, that increases effort and makes the setup flow harder to follow.
 </p>
 
 <h3>Key Findings</h3>
 
-<div class="finding-grid">
-
-  <div class="finding">
-    <p><strong>1. App switching is not clearly guided</strong></p>
-    <p><strong>Why it matters:</strong> Users may lose their place when moving between Keep and their mobile wallet to retrieve and enter card details.</p>
-    <p><strong>Recommended fix:</strong> Add explicit transitions that tell users when to open Keep, when to return to the wallet app, and what to do next.</p>
-  </div>
-
-  <div class="finding">
-    <p><strong>2. Prerequisites are incomplete</strong></p>
-    <p><strong>Why it matters:</strong> Users may begin setup without access to verification methods or card details, which interrupts task completion.</p>
-    <p><strong>Recommended fix:</strong> Add realistic prerequisites such as Keep account access and access to the phone number or email used for verification.</p>
-  </div>
-
-  <div class="finding">
-    <p><strong>3. Steps combine multiple actions or assume context</strong></p>
-    <p><strong>Why it matters:</strong> Users must interpret what screen they are on or what action comes next.</p>
-    <p><strong>Recommended fix:</strong> Break instructions into smaller steps and use clearer screen and action cues.</p>
-  </div>
-
-  <div class="finding">
-    <p><strong>4. Platform-specific flows are separated but not strongly signposted</strong></p>
-    <p><strong>Why it matters:</strong> Users scanning the page may take longer to find the correct instructions for their device.</p>
-    <p><strong>Recommended fix:</strong> Add clearer section labels for iPhone and Android flows.</p>
-  </div>
-
-  <div class="finding">
-    <p><strong>5. Screenshots are not fully integrated into the instructions</strong></p>
-    <p><strong>Why it matters:</strong> Visuals are less useful when they are not referenced directly in the steps.</p>
-    <p><strong>Recommended fix:</strong> Add captions or callouts that show what the user should look for in each image.</p>
-  </div>
-
-  <div class="finding">
-    <p><strong>6. Troubleshooting is too general</strong></p>
-    <p><strong>Why it matters:</strong> Users may need support for common setup issues that the article does not address directly.</p>
-    <p><strong>Recommended fix:</strong> Add troubleshooting for verification delays, difficulty locating card details, and repeated data-entry errors.</p>
-  </div>
-
-</div>
+<ol class="finding-list">
+  <li>
+    <strong>App switching is not clearly guided.</strong><br>
+    Users may lose their place when moving between Keep and their mobile wallet. The article should include clearer transitions that tell users when to open Keep, when to return to the wallet app, and what to do next.
+  </li>
+  <li>
+    <strong>Prerequisites are incomplete.</strong><br>
+    Users may begin setup without access to verification methods or card details. The article should state what users need before they start, including Keep account access and access to the phone number or email used for verification.
+  </li>
+  <li>
+    <strong>Steps combine multiple actions or assume context.</strong><br>
+    Users must interpret what screen they are on or what action comes next. The article should use shorter steps with clearer screen and action cues.
+  </li>
+  <li>
+    <strong>Platform-specific flows need stronger signposting.</strong><br>
+    Users scanning the page should be able to quickly find the correct instructions for iPhone or Android.
+  </li>
+  <li>
+    <strong>Screenshots could be better integrated.</strong><br>
+    Visuals are most useful when they are referenced directly in the steps or supported with captions.
+  </li>
+  <li>
+    <strong>Troubleshooting is too general.</strong><br>
+    Users may need support for common blockers such as verification delays, difficulty locating card details, or repeated data-entry errors.
+  </li>
+</ol>
 
 <h3>Summary of Impact</h3>
 
@@ -304,28 +273,13 @@ permalink: /piece-1/
   In its current form, the article creates unnecessary effort during a relatively simple setup task. The main usability issues are incomplete preparation guidance, weak app-switching cues, and instructions that require too much interpretation.
 </p>
 
-<p>Improving the article would likely:</p>
-
-<ul>
-  <li>reduce friction for first-time setup</li>
-  <li>increase successful wallet setup completion</li>
-  <li>make screenshots more useful as instructional support</li>
-  <li>reduce avoidable support questions</li>
-</ul>
+<p>Improving the article would likely reduce friction for first-time setup, increase successful wallet setup completion, make screenshots more useful, and reduce avoidable support questions.</p>
 
 <h3>Recommended Approach</h3>
 
-<p>To improve usability, the article should:</p>
-
-<ul>
-  <li>open with a task-focused introduction</li>
-  <li>include practical prerequisites</li>
-  <li>separate iPhone and Android flows clearly</li>
-  <li>use shorter, more explicit steps</li>
-  <li>guide users through switching between Keep and their wallet app</li>
-  <li>include troubleshooting for common setup blockers</li>
-  <li>move secondary or related content below the main task flow</li>
-</ul>
+<p>
+  To improve usability, the article should open with a task-focused introduction, include practical prerequisites, separate iPhone and Android flows clearly, use shorter steps, guide users through app switching, and include troubleshooting for common setup blockers.
+</p>
 
 </section>
 
