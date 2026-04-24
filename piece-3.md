@@ -50,15 +50,11 @@ permalink: /piece-3/
     color: #111827;
   }
 
-h4 {
-  font-size: 0.9rem;
-  margin-top: 36px;
-  margin-bottom: 12px;
-  color: #111827;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-}
+  h4 {
+    font-size: 1rem;
+    margin-top: 28px;
+    color: #111827;
+  }
 
   p, li {
     font-size: 1rem;
@@ -129,6 +125,12 @@ h4 {
     line-height: 1.18;
     margin-top: 0;
     margin-bottom: 16px;
+  }
+
+  .memo-divider {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 18px;
+    margin-top: 40px;
   }
 
   .sublist-title {
@@ -214,7 +216,7 @@ h4 {
 
 <h3>Recommendations for improving Keep card setup documentation</h3>
 
-<h4>Summary</h4>
+<h4 class="memo-divider">Summary</h4>
 
 <p>
   The current Keep card setup documentation includes useful task-based articles, but the experience is fragmented across multiple sections and does not provide a clear starting point for newly approved users.
@@ -225,8 +227,10 @@ h4 {
 </p>
 
 <p>
-  I recommend restructuring the card documentation around a three-layer model:
+  As a result, users can access key tasks, but the documentation does not yet support a clear onboarding flow. A newly approved user still has to figure out where to begin, which card type to use, and what order to follow.
 </p>
+
+<p>I recommend restructuring the card documentation around a three-layer model:</p>
 
 <ul>
   <li>a getting-started entry point for new users</li>
@@ -238,7 +242,7 @@ h4 {
   This model would improve discoverability, support task completion, and better separate admin setup decisions from cardholder task execution.
 </p>
 
-<h4>Current-state observations</h4>
+<h4 class="memo-divider">Current-state observations</h4>
 
 <ol>
   <li>
@@ -261,9 +265,14 @@ h4 {
     <strong>Related guidance exists, but it is not unified</strong>
     <p>Keep’s public Admin Guide includes steps for creating cards, setting spending limits, adding users, and assigning roles. It also links to resources such as virtual card ordering, physical card ordering, digital wallet setup, card details, and spending limits. The content needed for a more complete setup experience exists, but it is split across the Cards section, Account Management topics, and the Admin Guide rather than being presented as a unified setup model.</p>
   </li>
+
+  <li>
+    <strong>Browser context affects setup expectations</strong>
+    <p>Keep does not currently have a mobile app. Setup guidance that involves Apple Wallet or Google Wallet should avoid implying that users are completing card-management tasks in a Keep mobile app.</p>
+  </li>
 </ol>
 
-<h4>Recommended documentation model</h4>
+<h4 class="memo-divider">Recommended documentation model</h4>
 
 <p>I recommend organizing the card setup documentation into three layers.</p>
 
@@ -309,7 +318,28 @@ h4 {
   </li>
 </ol>
 
-<h4>Priority recommendations</h4>
+<h4 class="memo-divider">Proposed user journey</h4>
+
+<p class="sublist-title">For admins or card managers</p>
+<ul>
+  <li>Add team members if needed</li>
+  <li>Choose the appropriate card type</li>
+  <li>Create or order the card</li>
+  <li>Assign the card to the correct user</li>
+  <li>Apply spending limits or controls</li>
+  <li>Support activation or wallet setup as needed</li>
+</ul>
+
+<p class="sublist-title">For cardholders</p>
+<ul>
+  <li>Activate the card if required</li>
+  <li>View card details</li>
+  <li>Add the card to a digital wallet if needed</li>
+  <li>Begin using the card</li>
+  <li>Use troubleshooting content if setup or transactions fail</li>
+</ul>
+
+<h4 class="memo-divider">Priority recommendations</h4>
 
 <p><span class="priority-label">Priority 1: Create a getting-started article</span></p>
 <p>The highest-priority gap is the absence of a clear entry point in the Cards documentation for newly approved users.</p>
@@ -323,7 +353,7 @@ h4 {
 <p><span class="priority-label">Priority 4: Add companion troubleshooting content for high-friction tasks</span></p>
 <p>Digital wallet setup and declined transactions would benefit from clearer companion troubleshooting content that supports the main procedural articles without overloading them.</p>
 
-<h4>Expected impact</h4>
+<h4 class="memo-divider">Expected impact</h4>
 
 <p>A more coherent card documentation structure would likely improve:</p>
 
@@ -335,7 +365,15 @@ h4 {
   <li>support readiness for wallet and transaction issues</li>
 </ul>
 
-<h4>Recommendation and next steps</h4>
+<p>It would also make the documentation easier to maintain by separating:</p>
+
+<ul>
+  <li>entry-point guidance</li>
+  <li>procedural instructions</li>
+  <li>troubleshooting support</li>
+</ul>
+
+<h4 class="memo-divider">Recommendation</h4>
 
 <p>
   The strongest next step is to treat card setup as a guided documentation flow rather than a collection of standalone articles.
@@ -344,6 +382,12 @@ h4 {
 <p>
   Start by creating the getting-started entry point, reposition virtual card setup within the setup journey, and connect admin-related topics more directly to the Cards experience. Then add focused troubleshooting companions for the highest-friction tasks.
 </p>
+
+<p>
+  This would create a clearer onboarding path for newly approved users, improve discoverability across related content, and make the overall card documentation model easier to maintain.
+</p>
+
+<h4 class="memo-divider">Recommended next steps</h4>
 
 <ul>
   <li>Create the getting-started article as the main entry point for card setup</li>
