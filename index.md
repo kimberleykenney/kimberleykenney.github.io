@@ -165,8 +165,8 @@ title: Kimberley Kenney | Technical Writing Portfolio
 
   </section>
 
-  <p class="footer-note">
-    Portfolio samples are for demonstration purposes and are based on publicly available information, reasonable product assumptions, and technical writing best practices.
-  </p>
+<p class="footer-note">
+  These samples are independently created to demonstrate technical writing and content design skills. They are based on publicly available information and reasonable product assumptions.
+</p>
 
 </main>
