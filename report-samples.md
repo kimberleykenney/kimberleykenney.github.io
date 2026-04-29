@@ -112,6 +112,10 @@ permalink: /report-samples/
     margin-top: 24px;
   }
 
+  .content-card h2:first-child {
+    margin-top: 0;
+  }
+
   .content-card h3:first-child {
     margin-top: 0;
   }
@@ -146,6 +150,10 @@ permalink: /report-samples/
     font-weight: 600;
   }
 
+  .link-list {
+    margin-top: 12px;
+  }
+
   .note-box {
     background: #f9f7f4;
     border-left: 4px solid #9ca3af;
@@ -165,12 +173,6 @@ permalink: /report-samples/
     color: #6b7280;
     font-style: italic;
     max-width: 760px;
-  }
-
-  h2.section-break {
-    border-top: 1px solid #e5e7eb;
-    padding-top: 40px;
-    margin-top: 64px;
   }
 
   @media (max-width: 640px) {
@@ -195,55 +197,58 @@ permalink: /report-samples/
 <h1>Report & Executive Communications Samples</h1>
 
 <p class="lede">
-  Selected public samples of report, publication, and stakeholder communications work, including flagship sustainability reports, impact communications, and complex information presented for external audiences.
+  Selected examples from a broader body of communications work across research reports, press releases, web content, branding, messaging, and stakeholder-facing publications.
 </p>
 
 <section class="summary-card">
-  <div class="card-title">Portfolio Context</div>
-  <p><strong>Sample type:</strong> Report, publication, and executive communications work</p>
-  <p><strong>Focus:</strong> Editing, messaging, design coordination, data representation, stakeholder communications, and publication support</p>
+  <div class="card-title">Focus</div>
+  <p><strong>Work represented:</strong> Reports, press releases, web content, branding, stakeholder communications, and publication support</p>
   <p><strong>Subject areas:</strong> Sustainability, trade, market research, impact investing, and international development</p>
-  <p><strong>Skills demonstrated:</strong> Complex information synthesis, report development, visual storytelling, content structure, and audience-focused communications</p>
-  <p><strong>Primary audiences:</strong> Funders, partners, decision-makers, researchers, industry stakeholders, and public-facing readers</p>
+  <p><strong>Skills demonstrated:</strong> Information synthesis, editorial judgment, messaging, visual communication, content structure, and audience-focused communications</p>
 </section>
-
-<h2>Overview</h2>
 
 <section class="content-card">
 
-<h3>Project Context</h3>
-
-<p>
-  These public samples represent report and communications projects I supported through editing, messaging, design coordination, data representation, stakeholder communications, and publication planning.
-</p>
-
-<p>
-  My role focused on helping translate complex research, market information, stakeholder input, and organizational priorities into clearer, more polished materials for funders, partners, decision-makers, and public audiences.
-</p>
+<h2>Selected Samples</h2>
 
 <div class="note-box">
-  <p><strong>Note:</strong> I did not author all report content. These samples are included to demonstrate communications, reporting, editing, design coordination, and information-presentation experience.</p>
+  <p><strong>Note:</strong> I did not author all report or article content. These samples are included to show my communications, editing, messaging, design coordination, web, and information-presentation experience.</p>
 </div>
 
-</section>
-
-<h2 class="section-break">Selected Samples</h2>
-
-<section class="content-card">
-
 <div class="sample-list">
+
+  <div class="sample-item">
+    <h3>State of Sustainability Initiatives</h3>
+
+    <div class="sample-meta">
+      <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
+      <p><strong>Sample type:</strong> Initiative communications / web / press / report publishing</p>
+      <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, editing, communications support, and report publishing.</p>
+    </div>
+
+    <p>
+      Communications work for a research initiative focused on sustainability standards, market trends, and international trade.
+    </p>
+
+    <ul class="link-list">
+      <li><a href="https://www.iisd.org/ssi/" target="_blank">Website</a></li>
+      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Press release: Sustainable seafood market is surging, study finds</a></li>
+      <li><a href="https://www.iisd.org/articles/press-release/ground-breaking-new-study-reports-double-digit-growth-market-performance-eco" target="_blank">Press release: Ground-breaking new study reports double-digit growth in market performance of eco-labels</a></li>
+      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Report publishing: Standards and the Green Economy</a></li>
+    </ul>
+  </div>
 
   <div class="sample-item">
     <h3>State of Sustainability Initiatives Review 2014</h3>
 
     <div class="sample-meta">
       <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-      <p><strong>Sample type:</strong> Flagship research report / stakeholder communications</p>
+      <p><strong>Sample type:</strong> Flagship research report</p>
       <p><strong>My role included:</strong> Editing, messaging, design coordination, data representation, and communications support.</p>
     </div>
 
     <p>
-      This report demonstrates my experience supporting complex, data-rich publications for international sustainability, trade, and market audiences.
+      A data-rich publication for international sustainability, trade, and market audiences.
     </p>
 
     <a class="sample-link" href="https://www.iisd.org/system/files/pdf/2014/ssi_2014.pdf" target="_blank">View publication</a>
@@ -254,12 +259,12 @@ permalink: /report-samples/
 
     <div class="sample-meta">
       <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-      <p><strong>Sample type:</strong> Multi-partner research report / stakeholder communications</p>
-      <p><strong>My role included:</strong> Editing, messaging, report structure support, presentation of complex information, and stakeholder-facing communications.</p>
+      <p><strong>Sample type:</strong> Multi-partner research report</p>
+      <p><strong>My role included:</strong> Editing, messaging, structure support, presentation of complex information, and stakeholder-facing communications.</p>
     </div>
 
     <p>
-      This sample reflects my experience helping shape long-form, research-based content into a polished publication for external audiences.
+      A long-form research publication developed for external audiences across sustainability, trade, and market systems.
     </p>
 
     <a class="sample-link" href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf" target="_blank">View publication</a>
@@ -275,36 +280,38 @@ permalink: /report-samples/
     </div>
 
     <p>
-      This sample demonstrates my experience communicating finance, trade, investment, and sustainability information for stakeholder audiences.
+      A stakeholder-facing impact report focused on agricultural investment, social lenders, and sustainable trade.
     </p>
 
     <a class="sample-link" href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">View publication</a>
+  </div>
+
+  <div class="sample-item">
+    <h3>Finance Alliance for Sustainable Trade</h3>
+
+    <div class="sample-meta">
+      <p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
+      <p><strong>Sample type:</strong> Initiative communications / web / branding / stakeholder content</p>
+      <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, and stakeholder communications.</p>
+    </div>
+
+    <p>
+      Communications work for an international sustainable finance initiative supporting trade, investment, and agricultural producer organizations.
+    </p>
+
+    <a class="sample-link" href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">View archived website</a>
+
+    <div class="note-box">
+      <p><strong>Note:</strong> This organization is no longer active, so this link opens an archived version of the website.</p>
+    </div>
   </div>
 
 </div>
 
 </section>
 
-<h2 class="section-break">Additional Communications Work</h2>
-
-<section class="content-card">
-
-<p>
-  Additional work includes annual reports, press releases, news articles, stakeholder communications, web content, and publication support for international sustainability, trade, finance, and development audiences.
-</p>
-
-<p>
-  These materials supported organizational visibility, stakeholder engagement, project communications, and public-facing reporting across multi-partner initiatives.
-</p>
-
-<p>
-  Additional samples available upon request.
-</p>
-
-</section>
-
 <p class="footer-note">
-  These are public samples of professional communications projects I supported. Report ownership, authorship, and publication rights remain with the respective organizations and named authors. Links direct to publicly available publication sources.
+  These selected samples represent a portion of my communications work. Report ownership, authorship, and publication rights remain with the respective organizations and named authors. Links direct to publicly available or archived sources.
 </p>
 
 </main>
