@@ -18,18 +18,6 @@ permalink: /report-samples/
     padding: 64px 24px 96px;
   }
 
-  .back-link {
-    display: inline-block;
-    margin-bottom: 36px;
-    color: #6b7280;
-    text-decoration: none;
-    font-size: 0.95rem;
-  }
-
-  .back-link:hover {
-    text-decoration: underline;
-  }
-
   h1 {
     font-size: 2.65rem;
     line-height: 1.12;
@@ -47,6 +35,13 @@ permalink: /report-samples/
   h3 {
     font-size: 1.2rem;
     margin-top: 34px;
+    color: #111827;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
     color: #111827;
   }
 
@@ -112,28 +107,29 @@ permalink: /report-samples/
     margin-top: 24px;
   }
 
-  .content-card h2:first-child {
-    margin-top: 0;
-  }
-
+  .content-card h2:first-child,
   .content-card h3:first-child {
     margin-top: 0;
   }
 
-  .sample-list {
-    margin-top: 20px;
-  }
-
-  .sample-item {
+  .project-section {
     border-top: 1px solid #e5e7eb;
-    padding-top: 26px;
-    margin-top: 28px;
+    padding-top: 30px;
+    margin-top: 34px;
   }
 
-  .sample-item:first-child {
+  .project-section:first-child {
     border-top: none;
     padding-top: 0;
     margin-top: 0;
+  }
+
+  .sample-group {
+    margin-top: 22px;
+  }
+
+  .sample-group h4 {
+    margin-bottom: 10px;
   }
 
   .sample-meta {
@@ -142,12 +138,6 @@ permalink: /report-samples/
 
   .sample-meta p {
     margin: 0 0 8px;
-  }
-
-  .sample-link {
-    display: inline-block;
-    margin-top: 8px;
-    font-weight: 600;
   }
 
   .link-list {
@@ -192,8 +182,6 @@ permalink: /report-samples/
 
 <main class="page">
 
-<a class="back-link" href="/">← Back to portfolio</a>
-
 <h1>Report & Executive Communications Samples</h1>
 
 <p class="lede">
@@ -211,99 +199,76 @@ permalink: /report-samples/
 
 <h2>Selected Samples</h2>
 
-<div class="note-box">
-  <p><strong>Note:</strong> I did not author all report or article content. These samples are included to show my communications, editing, messaging, design coordination, web, and information-presentation experience.</p>
-</div>
+<div class="project-section">
 
-<div class="sample-list">
+  <h3>State of Sustainability Initiatives</h3>
 
-  <div class="sample-item">
-    <h3>State of Sustainability Initiatives</h3>
+  <div class="sample-meta">
+    <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
+    <p><strong>Project type:</strong> Research initiative communications</p>
+    <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, editing, report publishing, communications support, and data representation.</p>
+  </div>
 
-    <div class="sample-meta">
-      <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-      <p><strong>Sample type:</strong> Initiative communications / web / press / report publishing</p>
-      <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, editing, communications support, and report publishing.</p>
-    </div>
+  <p>
+    Communications work for a research initiative focused on sustainability standards, market trends, international trade, and the role of voluntary sustainability initiatives in global markets.
+  </p>
 
-    <p>
-      Communications work for a research initiative focused on sustainability standards, market trends, and international trade.
-    </p>
-
+  <div class="sample-group">
+    <h4>Initiative website and digital presence</h4>
     <ul class="link-list">
-      <li><a href="https://www.iisd.org/ssi/" target="_blank">Website</a></li>
-      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Press release: Sustainable seafood market is surging, study finds</a></li>
-      <li><a href="https://www.iisd.org/articles/press-release/ground-breaking-new-study-reports-double-digit-growth-market-performance-eco" target="_blank">Press release: Ground-breaking new study reports double-digit growth in market performance of eco-labels</a></li>
-      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Report publishing: Standards and the Green Economy</a></li>
+      <li><a href="https://www.iisd.org/ssi/" target="_blank">State of Sustainability Initiatives website</a></li>
     </ul>
   </div>
 
-  <div class="sample-item">
-    <h3>State of Sustainability Initiatives Review 2014</h3>
-
-    <div class="sample-meta">
-      <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-      <p><strong>Sample type:</strong> Flagship research report</p>
-      <p><strong>My role included:</strong> Editing, messaging, design coordination, data representation, and communications support.</p>
-    </div>
-
-    <p>
-      A data-rich publication for international sustainability, trade, and market audiences.
-    </p>
-
-    <a class="sample-link" href="https://www.iisd.org/system/files/pdf/2014/ssi_2014.pdf" target="_blank">View publication</a>
+  <div class="sample-group">
+    <h4>Press releases and public announcements</h4>
+    <ul class="link-list">
+      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Sustainable seafood market is surging, study finds</a></li>
+      <li><a href="https://www.iisd.org/articles/press-release/ground-breaking-new-study-reports-double-digit-growth-market-performance-eco" target="_blank">Ground-breaking new study reports double-digit growth in market performance of eco-labels</a></li>
+    </ul>
   </div>
 
-  <div class="sample-item">
-    <h3>State of Sustainability Initiatives Review 2010: Sustainability and Transparency</h3>
-
-    <div class="sample-meta">
-      <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-      <p><strong>Sample type:</strong> Multi-partner research report</p>
-      <p><strong>My role included:</strong> Editing, messaging, structure support, presentation of complex information, and stakeholder-facing communications.</p>
-    </div>
-
-    <p>
-      A long-form research publication developed for external audiences across sustainability, trade, and market systems.
-    </p>
-
-    <a class="sample-link" href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf" target="_blank">View publication</a>
+  <div class="sample-group">
+    <h4>Reports and publications</h4>
+    <ul class="link-list">
+      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Standards and the Green Economy</a></li>
+      <li><a href="https://www.iisd.org/system/files/pdf/2014/ssi_2014.pdf" target="_blank">State of Sustainability Initiatives Review</a></li>
+      <li><a href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf" target="_blank">State of Sustainability Initiatives: Sustainability and Transparency</a></li>
+    </ul>
   </div>
 
-  <div class="sample-item">
-    <h3>FAST Impact Report 1.0: Investing for Change</h3>
+</div>
 
-    <div class="sample-meta">
-      <p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
-      <p><strong>Sample type:</strong> Impact report / finance and sustainability communications</p>
-      <p><strong>My role included:</strong> Messaging, editing, report structure, communications support, and presentation of impact-focused findings.</p>
-    </div>
+<div class="project-section">
 
-    <p>
-      A stakeholder-facing impact report focused on agricultural investment, social lenders, and sustainable trade.
-    </p>
+  <h3>Finance Alliance for Sustainable Trade</h3>
 
-    <a class="sample-link" href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">View publication</a>
+  <div class="sample-meta">
+    <p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
+    <p><strong>Project type:</strong> Sustainable finance initiative communications</p>
+    <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, stakeholder communications, editing, and report support.</p>
   </div>
 
-  <div class="sample-item">
-    <h3>Finance Alliance for Sustainable Trade</h3>
+  <p>
+    Communications work for an international sustainable finance initiative supporting trade, investment, social lenders, and agricultural producer organizations.
+  </p>
 
-    <div class="sample-meta">
-      <p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
-      <p><strong>Sample type:</strong> Initiative communications / web / branding / stakeholder content</p>
-      <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, and stakeholder communications.</p>
-    </div>
+  <div class="sample-group">
+    <h4>Website and organizational communications</h4>
+    <ul class="link-list">
+      <li><a href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">Finance Alliance for Sustainable Trade archived website</a></li>
+    </ul>
+  </div>
 
-    <p>
-      Communications work for an international sustainable finance initiative supporting trade, investment, and agricultural producer organizations.
-    </p>
+  <div class="note-box">
+    <p><strong>Archive note:</strong> FAST is no longer active, so the website link opens an archived version.</p>
+  </div>
 
-    <a class="sample-link" href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">View archived website</a>
-
-    <div class="note-box">
-      <p><strong>Note:</strong> This organization is no longer active, so this link opens an archived version of the website.</p>
-    </div>
+  <div class="sample-group">
+    <h4>Impact reporting</h4>
+    <ul class="link-list">
+      <li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">FAST Impact Report: Investing for Change</a></li>
+    </ul>
   </div>
 
 </div>
@@ -311,7 +276,7 @@ permalink: /report-samples/
 </section>
 
 <p class="footer-note">
-  These selected samples represent a portion of my communications work. Report ownership, authorship, and publication rights remain with the respective organizations and named authors. Links direct to publicly available or archived sources.
+  These selected samples represent a portion of my communications work. My role varied by project and included communications, editing, messaging, design coordination, web content, publication support, and information presentation. Links direct to publicly available or archived sources.
 </p>
 
 </main>
