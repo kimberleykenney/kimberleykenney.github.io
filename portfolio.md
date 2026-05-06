@@ -1,9 +1,3 @@
-Here is your complete, clean, copy‑and‑paste GitHub Pages portfolio code WITHOUT the photo section.
-You can paste this directly into portfolio.md or any Jekyll page in your repo.
-No photo box, no image tag — fully removed.
-✅ COPY & PASTE BELOW (Final Portfolio Code – No Photo)
-
-
 ---
 layout: default
 title: Marketing & Communications Portfolio
