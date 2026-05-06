@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Communications & Content Writing Portfolio
+title: Report & Executive Communications Samples
 permalink: /report-samples/
 ---
 
@@ -182,34 +182,35 @@ permalink: /report-samples/
 
 <main class="page">
 
-<h1>Communications & Content Writing Portfolio</h1>
+<h1>Report & Executive Communications Samples</h1>
 
 <p class="lede">
-  Selected communications work demonstrating clear, accessible messaging across web, reports, press releases, branding, and stakeholder communications. Samples reflect experience translating complex subject matter into audience-focused content across digital and print channels.
+Selected examples from a broader body of communications work across research reports, press releases, web content, branding, messaging, and stakeholder-facing publications.
 </p>
 
 <section class="summary-card">
-  <div class="card-title">Core Communications Strengths</div>
-  <p><strong>Work represented:</strong> Web content, reports, press releases, branding, stakeholder communications, and publication support</p>
-  <p><strong>Subject areas:</strong> Sustainability, finance, international development, market research, and impact initiatives</p>
-  <p><strong>Skills demonstrated:</strong> Content strategy, editorial judgment, messaging development, accessibility-focused writing, branding, information synthesis, and audience-centered communications</p>
+  <div class="card-title">Focus</div>
+  <p><strong>Work represented:</strong> Reports, press releases, web content, branding, stakeholder communications, and publication support</p>
+  <p><strong>Subject areas:</strong> Sustainability, trade, market research, impact investing, and international development</p>
+  <p><strong>Skills demonstrated:</strong> Information synthesis, editorial judgment, messaging, visual communication, content structure, and audience-focused communications</p>
 </section>
 
 <section class="content-card">
 
-<h2>Selected Communications Projects</h2>
+<h2>Selected Samples</h2>
 
 <div class="project-section">
+
   <h3>State of Sustainability Initiatives</h3>
 
   <div class="sample-meta">
     <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
     <p><strong>Project type:</strong> Research initiative communications</p>
-    <p><strong>My role included:</strong> Content strategy, editorial development, messaging, branding support, web content, report publishing, and stakeholder communications.</p>
+    <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, editing, report publishing, communications support, and data representation.</p>
   </div>
 
   <p>
-    Communications work supporting a global research initiative focused on sustainability standards, market trends, international trade, and voluntary sustainability initiatives. Work included translating technical research into accessible, publication-ready communications for diverse audiences.
+    Communications work for a research initiative focused on sustainability standards, market trends, international trade, and the role of voluntary sustainability initiatives in global markets.
   </p>
 
   <div class="sample-group">
@@ -235,9 +236,11 @@ permalink: /report-samples/
       <li><a href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf" target="_blank">State of Sustainability Initiatives: Sustainability and Transparency</a></li>
     </ul>
   </div>
+
 </div>
 
 <div class="project-section">
+
   <h3>Finance Alliance for Sustainable Trade (FAST)</h3>
 
   <div class="sample-meta">
@@ -277,15 +280,17 @@ permalink: /report-samples/
       <li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">FAST Impact Report: Investing for Change</a></li>
     </ul>
   </div>
+
 </div>
 
 <div class="project-section">
+
   <h3>Cascade Homes</h3>
 
   <div class="sample-meta">
     <p><strong>Organization:</strong> Cascade Homes</p>
-    <p><strong>Project type:</strong> Brand identity and business communications</p>
-    <p><strong>My role included:</strong> Led brand identity and communications development including logo design, website design and development, messaging, written website content, and branded business collateral.</p>
+    <p><strong>Project type:</strong> Brand identity and communications</p>
+    <p><strong>My role included:</strong> Branding, logo design, website design and development, messaging, written content, and business collateral.</p>
   </div>
 
   <p>
@@ -293,18 +298,19 @@ permalink: /report-samples/
   </p>
 
   <div class="sample-group">
-    <h4><strong>Brand Identity & Digital Presence</strong></h4>
+    <h4>Brand Identity & Digital Presence</h4>
     <ul class="link-list">
       <li><a href="https://www.cascadehomes.ca/" target="_blank">Cascade Homes website</a></li>
-      <li><a href="/assets/images/cascade-business-cards.png" target="_blank">Cascade branded business card design</a></li>
+      <li><a href="/assets/images/cascade-business-cards.png" target="_blank">Cascade business card design</a></li>
     </ul>
   </div>
+
 </div>
 
 </section>
 
 <p class="footer-note">
-  These samples reflect communications work spanning content strategy, writing, editing, branding, web content, and publication support across stakeholder-facing and public communications initiatives.
+These samples reflect communications work spanning content strategy, writing, editing, branding, web content, and publication support across stakeholder-facing and public communications initiatives.
 </p>
 
 </main>
