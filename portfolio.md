@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Report & Executive Communications Samples
-permalink: /report-samples/
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <style>
@@ -107,11 +107,6 @@ permalink: /report-samples/
     margin-top: 24px;
   }
 
-  .content-card h2:first-child,
-  .content-card h3:first-child {
-    margin-top: 0;
-  }
-
   .project-section {
     border-top: 1px solid #e5e7eb;
     padding-top: 30px;
@@ -151,10 +146,6 @@ permalink: /report-samples/
     margin: 22px 0;
   }
 
-  .note-box p {
-    margin: 0;
-  }
-
   .footer-note {
     margin-top: 56px;
     padding-top: 18px;
@@ -182,22 +173,22 @@ permalink: /report-samples/
 
 <main class="page">
 
-<h1>Report & Executive Communications Samples</h1>
+<h1>Portfolio</h1>
 
 <p class="lede">
-Selected examples from a broader body of communications work across research reports, press releases, web content, branding, messaging, and stakeholder-facing publications.
+Selected communications work demonstrating experience across content strategy, reporting, branding, web content, and stakeholder communications.
 </p>
 
 <section class="summary-card">
-  <div class="card-title">Focus</div>
-  <p><strong>Work represented:</strong> Reports, press releases, web content, branding, stakeholder communications, and publication support</p>
-  <p><strong>Subject areas:</strong> Sustainability, trade, market research, impact investing, and international development</p>
-  <p><strong>Skills demonstrated:</strong> Information synthesis, editorial judgment, messaging, visual communication, content structure, and audience-focused communications</p>
+  <div class="card-title">Core Communications Strengths</div>
+  <p><strong>Work represented:</strong> Reports, web content, press releases, branding, stakeholder communications</p>
+  <p><strong>Subject areas:</strong> Sustainability, finance, international development, market research</p>
+  <p><strong>Skills demonstrated:</strong> Messaging, editorial judgment, content structure, branding, audience-focused writing</p>
 </section>
 
 <section class="content-card">
 
-<h2>Selected Samples</h2>
+<h2>Selected Work</h2>
 
 <div class="project-section">
 
@@ -205,35 +196,15 @@ Selected examples from a broader body of communications work across research rep
 
   <div class="sample-meta">
     <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-    <p><strong>Project type:</strong> Research initiative communications</p>
-    <p><strong>My role included:</strong> Branding, design, web development, key messaging, content, editing, report publishing, communications support, and data representation.</p>
-  </div>
-
-  <p>
-    Communications work for a research initiative focused on sustainability standards, market trends, international trade, and the role of voluntary sustainability initiatives in global markets.
-  </p>
-
-  <div class="sample-group">
-    <h4>Initiative website and digital presence</h4>
-    <ul class="link-list">
-      <li><a href="https://www.iisd.org/ssi/" target="_blank">State of Sustainability Initiatives website</a></li>
-    </ul>
+    <p><strong>Role:</strong> Content, messaging, branding support, web content, reporting</p>
   </div>
 
   <div class="sample-group">
-    <h4>Press releases and public announcements</h4>
+    <h4>Links</h4>
     <ul class="link-list">
-      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Sustainable seafood market is surging, study finds</a></li>
-      <li><a href="https://www.iisd.org/articles/press-release/ground-breaking-new-study-reports-double-digit-growth-market-performance-eco" target="_blank">Ground-breaking new study reports double-digit growth in market performance of eco-labels</a></li>
-    </ul>
-  </div>
-
-  <div class="sample-group">
-    <h4>Reports and publications</h4>
-    <ul class="link-list">
-      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Standards and the Green Economy</a></li>
-      <li><a href="https://www.iisd.org/system/files/pdf/2014/ssi_2014.pdf" target="_blank">State of Sustainability Initiatives Review</a></li>
-      <li><a href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf" target="_blank">State of Sustainability Initiatives: Sustainability and Transparency</a></li>
+      <li><a href="https://www.iisd.org/ssi/" target="_blank">Website</a></li>
+      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Press release</a></li>
+      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Publication</a></li>
     </ul>
   </div>
 
@@ -244,40 +215,23 @@ Selected examples from a broader body of communications work across research rep
   <h3>Finance Alliance for Sustainable Trade (FAST)</h3>
 
   <div class="sample-meta">
-    <p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
-    <p><strong>Project type:</strong> Sustainable finance initiative communications</p>
-    <p><strong>My role included:</strong> Led end-to-end communications development including branding, messaging framework, website content, editorial writing, stakeholder communications, and publication support.</p>
+    <p><strong>Role:</strong> Branding, logo design, messaging, website content, stakeholder communications</p>
   </div>
 
-  <p>
-    Led communications and brand development for an international sustainable finance initiative, creating audience-facing content and organizational communications to support stakeholder engagement, impact reporting, and digital presence.
-  </p>
-
   <div class="sample-group">
-    <h4><strong>Brand Identity & Messaging Development</strong></h4>
+    <h4><strong>Brand Identity & Messaging</strong></h4>
     <ul class="link-list">
-      <li>Created organization logo and visual identity system</li>
-      <li>Developed foundational brand messaging and positioning</li>
-      <li>Wrote all website and core organizational content</li>
-      <li>Established tone, messaging consistency, and audience-facing communications materials</li>
+      <li>Created logo and visual identity system</li>
+      <li>Developed brand messaging framework</li>
+      <li>Wrote all website and core content</li>
     </ul>
   </div>
 
   <div class="sample-group">
-    <h4>Website and organizational communications</h4>
+    <h4>Links</h4>
     <ul class="link-list">
-      <li><a href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">Finance Alliance for Sustainable Trade archived website</a></li>
-    </ul>
-  </div>
-
-  <div class="note-box">
-    <p><strong>Archive note:</strong> FAST is no longer active, so this link opens an archived version.</p>
-  </div>
-
-  <div class="sample-group">
-    <h4>Impact reporting</h4>
-    <ul class="link-list">
-      <li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">FAST Impact Report: Investing for Change</a></li>
+      <li><a href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">Archived website</a></li>
+      <li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">Impact report</a></li>
     </ul>
   </div>
 
@@ -288,20 +242,14 @@ Selected examples from a broader body of communications work across research rep
   <h3>Cascade Homes</h3>
 
   <div class="sample-meta">
-    <p><strong>Organization:</strong> Cascade Homes</p>
-    <p><strong>Project type:</strong> Brand identity and communications</p>
-    <p><strong>My role included:</strong> Branding, logo design, website design and development, messaging, written content, and business collateral.</p>
+    <p><strong>Role:</strong> Branding, website design, messaging, business collateral</p>
   </div>
 
-  <p>
-    Supported development of a cohesive brand presence for a residential services business, creating audience-facing communications materials and a polished digital presence aligned with business goals.
-  </p>
-
   <div class="sample-group">
-    <h4>Brand Identity & Digital Presence</h4>
+    <h4>Links</h4>
     <ul class="link-list">
-      <li><a href="https://www.cascadehomes.ca/" target="_blank">Cascade Homes website</a></li>
-      <li><a href="/assets/images/cascade-business-cards.png" target="_blank">Cascade business card design</a></li>
+      <li><a href="https://www.cascadehomes.ca/" target="_blank">Website</a></li>
+      <li>Business cards (PNG asset in project files)</li>
     </ul>
   </div>
 
@@ -310,7 +258,7 @@ Selected examples from a broader body of communications work across research rep
 </section>
 
 <p class="footer-note">
-These samples reflect communications work spanning content strategy, writing, editing, branding, web content, and publication support across stakeholder-facing and public communications initiatives.
+Selected communications work across branding, writing, editing, content strategy, and stakeholder-facing materials.
 </p>
 
 </main>
