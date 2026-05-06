@@ -71,25 +71,13 @@ permalink: /portfolio/
     margin-bottom: 28px;
   }
 
-  .summary-card,
-  .content-card {
+  .summary-card {
     background: #ffffff;
     border: 1px solid #e5e7eb;
     box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
-  }
-
-  .summary-card {
     border-radius: 18px;
     padding: 24px 26px;
     margin: 28px 0 48px;
-  }
-
-  .summary-card p {
-    margin: 0 0 10px;
-  }
-
-  .summary-card p:last-child {
-    margin-bottom: 0;
   }
 
   .card-title {
@@ -99,12 +87,6 @@ permalink: /portfolio/
     color: #6b7280;
     font-weight: 700;
     margin-bottom: 14px;
-  }
-
-  .content-card {
-    border-radius: 18px;
-    padding: 30px;
-    margin-top: 24px;
   }
 
   .project-section {
@@ -119,6 +101,10 @@ permalink: /portfolio/
     margin-top: 0;
   }
 
+  .sample-meta p {
+    margin: 0 0 8px;
+  }
+
   .sample-group {
     margin-top: 22px;
   }
@@ -127,23 +113,8 @@ permalink: /portfolio/
     margin-bottom: 10px;
   }
 
-  .sample-meta {
-    margin: 14px 0 18px;
-  }
-
-  .sample-meta p {
-    margin: 0 0 8px;
-  }
-
   .link-list {
     margin-top: 12px;
-  }
-
-  .note-box {
-    background: #f9f7f4;
-    border-left: 4px solid #9ca3af;
-    padding: 16px 18px;
-    margin: 22px 0;
   }
 
   .footer-note {
@@ -164,100 +135,135 @@ permalink: /portfolio/
     h1 {
       font-size: 2.1rem;
     }
-
-    .content-card {
-      padding: 24px;
-    }
   }
 </style>
 
-<main class="page">
+<div class="page">
 
 <h1>Portfolio</h1>
 
 <p class="lede">
-Selected communications work demonstrating experience across content strategy, reporting, branding, web content, and stakeholder communications.
+Selected communications work demonstrating experience across content strategy, branding, reporting, web content, and stakeholder communications.
 </p>
 
-<section class="summary-card">
+<div class="summary-card">
   <div class="card-title">Core Communications Strengths</div>
   <p><strong>Work represented:</strong> Reports, web content, press releases, branding, stakeholder communications</p>
   <p><strong>Subject areas:</strong> Sustainability, finance, international development, market research</p>
   <p><strong>Skills demonstrated:</strong> Messaging, editorial judgment, content structure, branding, audience-focused writing</p>
-</section>
+</div>
 
-<section class="content-card">
-
-<h2>Selected Work</h2>
+<!-- SSI -->
 
 <div class="project-section">
 
-  <h3>State of Sustainability Initiatives</h3>
+<h3>State of Sustainability Initiatives (SSI)</h3>
 
-  <div class="sample-meta">
-    <p><strong>Organization:</strong> International Institute for Sustainable Development</p>
-    <p><strong>Role:</strong> Content, messaging, branding support, web content, reporting</p>
-  </div>
+<div class="sample-meta">
+<p><strong>Organization:</strong> International Institute for Sustainable Development</p>
+<p><strong>Project type:</strong> Research communications & publishing</p>
+<p><strong>Role:</strong> Branding, messaging, content development, editing, web content, report publishing, stakeholder communications</p>
+</div>
 
-  <div class="sample-group">
-    <h4>Links</h4>
-    <ul class="link-list">
-      <li><a href="https://www.iisd.org/ssi/" target="_blank">Website</a></li>
-      <li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/" target="_blank">Press release</a></li>
-      <li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/" target="_blank">Publication</a></li>
-    </ul>
-  </div>
+<p>
+Communications support for a global research initiative focused on sustainability standards, market trends, and voluntary sustainability systems.
+</p>
+
+<div class="sample-group">
+<h4>Digital platform & initiative communications</h4>
+<ul class="link-list">
+<li><a href="https://www.iisd.org/ssi/">SSI platform – sustainability research and insights hub</a></li>
+</ul>
+</div>
+
+<div class="sample-group">
+<h4>Media coverage & press communications</h4>
+<ul class="link-list">
+<li><a href="https://www.iisd.org/ssi/news/sustainable-seafood-market-is-surging-study-finds/">Press release – seafood market sustainability growth analysis</a></li>
+<li><a href="https://www.iisd.org/articles/press-release/ground-breaking-new-study-reports-double-digit-growth-market-performance-eco">Press release – eco-label market performance findings</a></li>
+</ul>
+</div>
+
+<div class="sample-group">
+<h4>Research reports & publications</h4>
+<ul class="link-list">
+<li><a href="https://www.iisd.org/ssi/publications/standards-and-the-green-economy/">Publication – Standards and the Green Economy</a></li>
+<li><a href="https://www.iisd.org/system/files/pdf/2014/ssi_2014.pdf">Report – State of Sustainability Initiatives Review</a></li>
+<li><a href="https://www.iisd.org/system/files/publications/ssi_sustainability_review_2010.pdf">Report – Sustainability and Transparency analysis</a></li>
+</ul>
+</div>
 
 </div>
+
+<!-- FAST -->
 
 <div class="project-section">
 
-  <h3>Finance Alliance for Sustainable Trade (FAST)</h3>
+<h3>Finance Alliance for Sustainable Trade (FAST)</h3>
 
-  <div class="sample-meta">
-    <p><strong>Role:</strong> Branding, logo design, messaging, website content, stakeholder communications</p>
-  </div>
+<div class="sample-meta">
+<p><strong>Organization:</strong> Finance Alliance for Sustainable Trade</p>
+<p><strong>Project type:</strong> Sustainable finance communications & brand development</p>
+<p><strong>Role:</strong> Led full communications development including branding, messaging framework, website content, editorial writing, stakeholder communications, and publication support</p>
+</div>
 
-  <div class="sample-group">
-    <h4><strong>Brand Identity & Messaging</strong></h4>
-    <ul class="link-list">
-      <li>Created logo and visual identity system</li>
-      <li>Developed brand messaging framework</li>
-      <li>Wrote all website and core content</li>
-    </ul>
-  </div>
+<p>
+Led end-to-end communications and brand development for an international sustainable finance initiative supporting trade finance, investment, and agricultural producer organisations.
+</p>
 
-  <div class="sample-group">
-    <h4>Links</h4>
-    <ul class="link-list">
-      <li><a href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org" target="_blank">Archived website</a></li>
-      <li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders" target="_blank">Impact report</a></li>
-    </ul>
-  </div>
+<div class="sample-group">
+<h4>Brand identity & messaging system</h4>
+<ul class="link-list">
+<li>Developed organisational logo and visual identity system</li>
+<li>Created core brand messaging and positioning framework</li>
+<li>Wrote full website and organisational content</li>
+<li>Established tone of voice and communications consistency</li>
+</ul>
+</div>
+
+<div class="sample-group">
+<h4>Organisational website & archive</h4>
+<ul class="link-list">
+<li><a href="https://web.archive.org/web/20170713174239/http://www.fastinternational.org/">FAST organisation website – archived sustainable finance initiative</a></li>
+</ul>
+</div>
+
+<div class="sample-group">
+<h4>Impact reporting</h4>
+<ul class="link-list">
+<li><a href="https://www.researchgate.net/publication/378140404_FAST_2013_Impact_report_10_Investing_for_Change_An_Analysis_of_the_Impacts_of_Agricultural_Investments_from_Select_FAST_Social_Lenders">Impact report – Investing for Change analysis</a></li>
+</ul>
+</div>
 
 </div>
+
+<!-- CASCADE -->
 
 <div class="project-section">
 
-  <h3>Cascade Homes</h3>
+<h3>Cascade Homes</h3>
 
-  <div class="sample-meta">
-    <p><strong>Role:</strong> Branding, website design, messaging, business collateral</p>
-  </div>
-
-  <div class="sample-group">
-    <h4>Links</h4>
-    <ul class="link-list">
-      <li><a href="https://www.cascadehomes.ca/" target="_blank">Website</a></li>
-    </ul>
-  </div>
-
+<div class="sample-meta">
+<p><strong>Organization:</strong> Cascade Homes</p>
+<p><strong>Project type:</strong> Brand identity, website & communications</p>
+<p><strong>Role:</strong> Branding, logo design, website design and development, messaging, written content</p>
 </div>
 
-</section>
+<p>
+Developed brand identity and communications materials for a residential services business, including digital presence and messaging aligned with brand positioning.
+</p>
+
+<div class="sample-group">
+<h4>Website & digital presence</h4>
+<ul class="link-list">
+<li><a href="https://www.cascadehomes.ca/">Cascade Homes – live website and brand presence</a></li>
+</ul>
+</div>
+
+</div>
 
 <p class="footer-note">
 Selected communications work across branding, writing, editing, content strategy, and stakeholder-facing materials.
 </p>
 
-</main>
+</div>
