@@ -140,7 +140,7 @@ permalink: /portfolio/
 <main class="page">
 <!-- PROFILE PHOTO -->
 <div class="photo-box">
-  <img src="https://github.com/kimberleykenney/kimberleykenney.github.io/blob/5f9636007caf04e6d0b267ee4842078f16a890cd/1777322388681.png" alt="Kimberley Kenney Profile Photo">
+  <img [raw.githubusercontent.com](https://raw.githubusercontent.com/kimberleykenney/kimberleykenney.github.io/4cf0b93bd9d673d25f24e2d027e06c13ad4ecf7b/1777322388681.png)" alt="Kimberley Kenney Profile Photo">
 </div>
 <h1>Marketing & Communications Portfolio</h1>
 <p class="lede">
