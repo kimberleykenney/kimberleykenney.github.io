@@ -249,7 +249,6 @@ Selected communications work demonstrating experience across content strategy, r
     <h4>Links</h4>
     <ul class="link-list">
       <li><a href="https://www.cascadehomes.ca/" target="_blank">Website</a></li>
-      <li>Business cards (PNG asset in project files)</li>
     </ul>
   </div>
 
