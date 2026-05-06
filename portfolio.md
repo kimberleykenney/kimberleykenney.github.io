@@ -1,3 +1,9 @@
+Here is your complete, clean, copy‑and‑paste GitHub Pages portfolio code WITHOUT the photo section.
+You can paste this directly into portfolio.md or any Jekyll page in your repo.
+No photo box, no image tag — fully removed.
+✅ COPY & PASTE BELOW (Final Portfolio Code – No Photo)
+
+
 ---
 layout: default
 title: Marketing & Communications Portfolio
@@ -115,18 +121,6 @@ permalink: /portfolio/
   .sample-meta p {
     margin: 0 0 8px;
   }
-  .photo-box {
-    width: 140px;
-    height: 140px;
-    border-radius: 100px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    border: 3px solid #e5e7eb;
-  }
-  .photo-box img {
-    width: 100%;
-    height: auto;
-  }
   .footer-note {
     margin-top: 56px;
     padding-top: 18px;
@@ -136,15 +130,22 @@ permalink: /portfolio/
     font-style: italic;
     max-width: 760px;
   }
+  @media (max-width: 640px) {
+    .page {
+      padding: 44px 20px 72px;
+    }
+    h1 {
+      font-size: 2.1rem;
+    }
+    .content-card {
+      padding: 24px;
+    }
+  }
 </style>
 <main class="page">
-<!-- PROFILE PHOTO -->
-<div class="photo-box">
-  <img src="[raw.githubusercontent.com](https://raw.githubusercontent.com/kimberleykenney/kimberleykenney.github.io/4cf0b93bd9d673d25f24e2d027e06c13ad4ecf7b/1777322388681.png)" alt="Kimberley Kenney Profile Photo">
-</div>
 <h1>Marketing & Communications Portfolio</h1>
 <p class="lede">
-  Selected work demonstrating marketing strategy, brand development, plain‑language writing, digital content management, and program communications for mission-driven organizations. 
+  Selected work demonstrating marketing strategy, brand development, plain‑language writing, digital content management, and program communications for mission‑driven organizations.
 </p>
 <section class="summary-card">
   <div class="card-title">Overview</div>
@@ -170,7 +171,7 @@ permalink: /portfolio/
     <p><strong>Role:</strong> Full website content creation, navigation design, digital ecosystem setup.</p>
     <p><strong>Years:</strong> 2007–2016</p>
   </div>
-  <p>Built and wrote all content for FAST’s website, including member materials, program descriptions, and brand-aligned messaging.</p>
+  <p>Built and wrote all content for FAST’s website, including member materials, program descriptions, and brand‑aligned messaging.</p>
   <ul class="link-list">
     <li><a href="[web.archive.org](https://web.archive.org/web/20170713174239/http://www.fastinternational.org)" target="_blank">FAST Website (Archived)</a></li>
   </ul>
@@ -207,7 +208,7 @@ permalink: /portfolio/
 </div>
 </section>
 <section class="content-card">
-<h2>Writing & Plain-Language Content</h2>
+<h2>Writing & Plain‑Language Content</h2>
 <div class="project-section">
   <h3>SSI Research & Communication</h3>
   <div class="sample-meta">
